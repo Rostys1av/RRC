@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>date_picker_dropdawn_list_month</name>
+   <tag></tag>
+   <elementGuidId>bc6852c8-0c1a-4a49-a6e8-9c431bd0ac74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//select[@data-handler=&quot;selectMonth&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

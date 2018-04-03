@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_Reg-Entering non-valid mail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e236bf9-257e-4967-9f80-6d7234105337</testCaseGuid>
+</TestCaseEntity>

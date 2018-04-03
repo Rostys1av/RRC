@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_remove_main_language</name>
+   <tag></tag>
+   <elementGuidId>23fb29b1-c9ee-4526-98a8-799840e77ab9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@onclick=&quot;langRemove('en-US')&quot;]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@onclick=&quot;langRemove('en-US')&quot;]/span</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_submenu_Description_top_days</name>
+   <tag></tag>
+   <elementGuidId>a0022e96-b123-4df8-bb5c-ff1e800aaad5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//ul[@class='submenu'])[2]/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//ul[@class='submenu'])[2]/li[2]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_submenu_Files_top_Maps</name>
+   <tag></tag>
+   <elementGuidId>c4aa2401-54c2-43d4-ba35-9af7c1af6c09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//ul[@class='submenu'])[4]/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//ul[@class='submenu'])[4]/li[2]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add_report" time="591" tests="4" failures="0" errors="0">
+   <testsuite name="Add_report" tests="4" failures="0" errors="0" time="591" timestamp="2018-04-03 11:00:52" hostname="user - BrainPc" id="Test Suites/Add_report">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Add_report\\20180403_110045"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Add_report\\20180403_110045\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - BrainPc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.137.2"/>
+         <property name="sessionId" value="f109ec4d5a57ee98dc09fadc760efb01"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Create_report/Step_1" classname="Test Cases/Create_report/Step_1" status="PASSED">
+         <system-out><![CDATA[2018-04-03 11:00:52 - [TEST_CASE][PASSED] - Test Cases/Create_report/Step_1: Test Cases/Create_report/Step_1
+
+2018-04-03 11:00:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 11:00:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 11:00:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 11:01:00 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 11:01:00 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 11:01:01 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - mail = "rostyslav.biliaiev@route-report.com": null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - pass = "111111": null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - bigtext = org.apache.commons.lang.RandomStringUtils.randomNumeric(2000): null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - mydate = new java.util.Date(): null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - formattedDate = mydate.format("MMdd"): null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - dateHour = mydate.format("HHmmss"): null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - x = "_date_" + formattedDate + "_time_" + dateHour: null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - title = "Automated test was executed" + x: null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - authors_text = "Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors ": null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - Statement - youtube = "https://youtu.be/2VjmdTtcEQE": null
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 11:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 11:01:01 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 11:01:02 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 11:01:02 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 11:01:03 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 11:01:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 11:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 11:01:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-04-03 11:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-04-03 11:01:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:01:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:01:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Open_draft' is clicked on
+
+2018-04-03 11:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Open_draft' is clicked on
+
+2018-04-03 11:01:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_1/ver_popup_My_drafts_shows' is visible
+
+2018-04-03 11:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/Step_1/ver_popup_My_drafts_shows' is visible
+
+2018-04-03 11:01:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:01:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:01:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Create_New_report' is clicked on
+
+2018-04-03 11:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Create_New_report' is clicked on
+
+2018-04-03 11:01:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-03 11:01:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-03 11:01:24 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Write report - Route Report'
+
+2018-04-03 11:01:24 - [MESSAGE][PASSED] - Switched to window with title: 'Write report - Route Report'
+
+2018-04-03 11:01:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_1/ver_Popup_select_types_date' is visible
+
+2018-04-03 11:01:24 - [MESSAGE][PASSED] - Object 'Object Repository/Step_1/ver_Popup_select_types_date' is visible
+
+2018-04-03 11:01:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Language_DE' is clicked on
+
+2018-04-03 11:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Language_DE' is clicked on
+
+2018-04-03 11:01:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/select_date_From' is clicked on
+
+2018-04-03 11:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/select_date_From' is clicked on
+
+2018-04-03 11:01:24 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Payments/select_month'
+
+2018-04-03 11:01:24 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Payments/select_month'
+
+2018-04-03 11:01:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:01:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:01:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/Set_date_1' is clicked on
+
+2018-04-03 11:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/Set_date_1' is clicked on
+
+2018-04-03 11:01:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/select_date_To' is clicked on
+
+2018-04-03 11:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/select_date_To' is clicked on
+
+2018-04-03 11:01:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:01:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:01:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/Set_date_3' is clicked on
+
+2018-04-03 11:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/Set_date_3' is clicked on
+
+2018-04-03 11:01:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/Set_Type_OTHER' is clicked on
+
+2018-04-03 11:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/Set_Type_OTHER' is clicked on
+
+2018-04-03 11:01:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_1/ver_List_of_kinds' is visible
+
+2018-04-03 11:01:33 - [MESSAGE][PASSED] - Object 'Object Repository/Step_1/ver_List_of_kinds' is visible
+
+2018-04-03 11:01:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/Set_kind_Art(museums)' is clicked on
+
+2018-04-03 11:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/Set_kind_Art(museums)' is clicked on
+
+2018-04-03 11:01:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_OK_in_popup_select_types_and_date' is clicked on
+
+2018-04-03 11:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_OK_in_popup_select_types_and_date' is clicked on
+
+2018-04-03 11:01:33 - [TEST_STEP][PASSED] - setText: Text 'Automated test was executed_date_0403_time_110101' is set on object 'Object Repository/Step_1/input_Title_of_report_field'
+
+2018-04-03 11:01:34 - [MESSAGE][PASSED] - Text 'Automated test was executed_date_0403_time_110101' is set on object 'Object Repository/Step_1/input_Title_of_report_field'
+
+2018-04-03 11:01:34 - [TEST_STEP][PASSED] - setText: Text 'Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors ' is set on object 'Object Repository/Step_1/input_Text_from_author'
+
+2018-04-03 11:01:36 - [MESSAGE][PASSED] - Text 'Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors ' is set on object 'Object Repository/Step_1/input_Text_from_author'
+
+2018-04-03 11:01:36 - [TEST_STEP][PASSED] - uploadFile: File 'D:\test-photo.jpg' sent to object: 'Object Repository/Step_1/but_Add_main_photo'
+
+2018-04-03 11:01:51 - [MESSAGE][PASSED] - File 'D:\test-photo.jpg' sent to object: 'Object Repository/Step_1/but_Add_main_photo'
+
+2018-04-03 11:01:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_1/but_save_adde_photo' is visible
+
+2018-04-03 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/Step_1/but_save_adde_photo' is visible
+
+2018-04-03 11:01:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_save_adde_photo' is clicked on
+
+2018-04-03 11:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_save_adde_photo' is clicked on
+
+2018-04-03 11:01:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:01:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:01:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_open_map(Start)' is clicked on
+
+2018-04-03 11:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_open_map(Start)' is clicked on
+
+2018-04-03 11:01:58 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_1/but_Start(popup_on_the_map)' is visible
+
+2018-04-03 11:01:59 - [MESSAGE][PASSED] - Object 'Object Repository/Step_1/but_Start(popup_on_the_map)' is visible
+
+2018-04-03 11:01:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Start(popup_on_the_map)' is clicked on
+
+2018-04-03 11:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Start(popup_on_the_map)' is clicked on
+
+2018-04-03 11:01:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:02:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:02:01 - [TEST_STEP][PASSED] - setText: Text 'London' is set on object 'Object Repository/Map/input_Search_field'
+
+2018-04-03 11:02:01 - [MESSAGE][PASSED] - Text 'London' is set on object 'Object Repository/Map/input_Search_field'
+
+2018-04-03 11:02:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/Select_London' is clicked on
+
+2018-04-03 11:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/Select_London' is clicked on
+
+2018-04-03 11:02:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map/ver_pop_waypoint_shows' is visible
+
+2018-04-03 11:02:04 - [MESSAGE][PASSED] - Object 'Object Repository/Map/ver_pop_waypoint_shows' is visible
+
+2018-04-03 11:02:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/but_Edit_waypoint_name' is clicked on
+
+2018-04-03 11:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/but_Edit_waypoint_name' is clicked on
+
+2018-04-03 11:02:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:06 - [TEST_STEP][PASSED] - setText: Text 'Testcityname' is set on object 'Object Repository/Map/input_City_name_waypint'
+
+2018-04-03 11:02:06 - [MESSAGE][PASSED] - Text 'Testcityname' is set on object 'Object Repository/Map/input_City_name_waypint'
+
+2018-04-03 11:02:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/select_waypoint_Day' is clicked on
+
+2018-04-03 11:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/select_waypoint_Day' is clicked on
+
+2018-04-03 11:02:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/select_waypoint_Day_1' is clicked on
+
+2018-04-03 11:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/select_waypoint_Day_1' is clicked on
+
+2018-04-03 11:02:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/but_Save_waypoint' is clicked on
+
+2018-04-03 11:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/but_Save_waypoint' is clicked on
+
+2018-04-03 11:02:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-03 11:02:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-03 11:02:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/but_Delete_waypoint' is clicked on
+
+2018-04-03 11:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/but_Delete_waypoint' is clicked on
+
+2018-04-03 11:02:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_1/but_Start(popup_on_the_map)' is visible
+
+2018-04-03 11:02:10 - [MESSAGE][PASSED] - Object 'Object Repository/Step_1/but_Start(popup_on_the_map)' is visible
+
+2018-04-03 11:02:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Start(popup_on_the_map)' is clicked on
+
+2018-04-03 11:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Start(popup_on_the_map)' is clicked on
+
+2018-04-03 11:02:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-03 11:02:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-03 11:02:14 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/Map/input_Search_field' is clicked on using offset x=500 and y=200
+
+2018-04-03 11:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/input_Search_field' is clicked on using offset x=500 and y=200
+
+2018-04-03 11:02:14 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map/ver_pop_waypoint_shows' is visible
+
+2018-04-03 11:02:16 - [MESSAGE][PASSED] - Object 'Object Repository/Map/ver_pop_waypoint_shows' is visible
+
+2018-04-03 11:02:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/select_waypoint_Day' is clicked on
+
+2018-04-03 11:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/select_waypoint_Day' is clicked on
+
+2018-04-03 11:02:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/select_waypoint_Day_1' is clicked on
+
+2018-04-03 11:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/select_waypoint_Day_1' is clicked on
+
+2018-04-03 11:02:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:19 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/Map/input_Search_field' is clicked on using offset x=400 and y=300
+
+2018-04-03 11:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/input_Search_field' is clicked on using offset x=400 and y=300
+
+2018-04-03 11:02:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map/ver_pop_waypoint_shows' is visible
+
+2018-04-03 11:02:21 - [MESSAGE][PASSED] - Object 'Object Repository/Map/ver_pop_waypoint_shows' is visible
+
+2018-04-03 11:02:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/select_waypoint_Day' is clicked on
+
+2018-04-03 11:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/select_waypoint_Day' is clicked on
+
+2018-04-03 11:02:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/select_waypoint_Day_1' is clicked on
+
+2018-04-03 11:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/select_waypoint_Day_1' is clicked on
+
+2018-04-03 11:02:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:23 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/Map/input_Search_field' is clicked on using offset x=300 and y=300
+
+2018-04-03 11:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/input_Search_field' is clicked on using offset x=300 and y=300
+
+2018-04-03 11:02:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:24 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map/ver_pop_waypoint_shows' is visible
+
+2018-04-03 11:02:25 - [MESSAGE][PASSED] - Object 'Object Repository/Map/ver_pop_waypoint_shows' is visible
+
+2018-04-03 11:02:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/select_waypoint_Day' is clicked on
+
+2018-04-03 11:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/select_waypoint_Day' is clicked on
+
+2018-04-03 11:02:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:02:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:02:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/select_waypoint_Day_3' is clicked on
+
+2018-04-03 11:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/select_waypoint_Day_3' is clicked on
+
+2018-04-03 11:02:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/but_Close_Map' is clicked on
+
+2018-04-03 11:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/but_Close_Map' is clicked on
+
+2018-04-03 11:02:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Next(to_step_2)' is clicked on
+
+2018-04-03 11:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Next(to_step_2)' is clicked on
+
+2018-04-03 11:02:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_2/ver_Step_is_loaded' is visible
+
+2018-04-03 11:02:27 - [MESSAGE][PASSED] - Object 'Object Repository/Step_2/ver_Step_is_loaded' is visible
+
+2018-04-03 11:02:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:02:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:02:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Save_draft' is clicked on
+
+2018-04-03 11:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Save_draft' is clicked on
+
+2018-04-03 11:02:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_1/ver_popup_report_was_saved' is visible
+
+2018-04-03 11:02:30 - [MESSAGE][PASSED] - Object 'Object Repository/Step_1/ver_popup_report_was_saved' is visible
+
+2018-04-03 11:02:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 11:02:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_report/Step 2" classname="Test Cases/Create_report/Step 2" status="PASSED">
+         <system-out><![CDATA[2018-04-03 11:02:31 - [TEST_CASE][PASSED] - Test Cases/Create_report/Step 2: Test Cases/Create_report/Step 2
+
+2018-04-03 11:02:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 11:02:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 11:02:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 11:02:36 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 11:02:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 11:02:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - mail = "rostyslav.biliaiev@route-report.com": null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - pass = "111111": null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - bigtext = org.apache.commons.lang.RandomStringUtils.randomNumeric(2000): null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - mydate = new java.util.Date(): null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - formattedDate = mydate.format("MMdd"): null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - dateHour = mydate.format("HHmmss"): null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - x = "_date_" + formattedDate + "_time_" + dateHour: null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - title = "Automated test was executed" + x: null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - authors_text = "Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors ": null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - Statement - youtube = "https://youtu.be/2VjmdTtcEQE": null
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 11:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 11:02:38 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 11:02:38 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 11:02:39 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 11:02:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 11:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 11:02:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-04-03 11:02:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-04-03 11:02:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:02:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:02:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_Edit_report_first' is clicked on
+
+2018-04-03 11:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_Edit_report_first' is clicked on
+
+2018-04-03 11:02:55 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-04-03 11:02:55 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-04-03 11:02:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Next(to_step_2)' is clicked on
+
+2018-04-03 11:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Next(to_step_2)' is clicked on
+
+2018-04-03 11:03:02 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_2/ver_Step_is_loaded' is visible
+
+2018-04-03 11:03:03 - [MESSAGE][PASSED] - Object 'Object Repository/Step_2/ver_Step_is_loaded' is visible
+
+2018-04-03 11:03:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:03:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:03:05 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_2/ver_Step_is_loaded' is visible
+
+2018-04-03 11:03:06 - [MESSAGE][PASSED] - Object 'Object Repository/Step_2/ver_Step_is_loaded' is visible
+
+2018-04-03 11:03:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Purpose' is clicked on
+
+2018-04-03 11:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Purpose' is clicked on
+
+2018-04-03 11:03:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:03:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:03:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Purpose_option' is clicked on
+
+2018-04-03 11:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Purpose_option' is clicked on
+
+2018-04-03 11:03:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Main_team' is clicked on
+
+2018-04-03 11:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Main_team' is clicked on
+
+2018-04-03 11:03:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:03:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:03:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Main_team_option' is clicked on
+
+2018-04-03 11:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Main_team_option' is clicked on
+
+2018-04-03 11:03:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Most_of_Acc' is clicked on
+
+2018-04-03 11:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Most_of_Acc' is clicked on
+
+2018-04-03 11:03:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:03:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:03:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Most_of_Acc_option' is clicked on
+
+2018-04-03 11:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Most_of_Acc_option' is clicked on
+
+2018-04-03 11:03:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Trainig_level' is clicked on
+
+2018-04-03 11:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Trainig_level' is clicked on
+
+2018-04-03 11:03:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:03:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:03:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Training_level_option' is clicked on
+
+2018-04-03 11:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Training_level_option' is clicked on
+
+2018-04-03 11:03:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Pets' is clicked on
+
+2018-04-03 11:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Pets' is clicked on
+
+2018-04-03 11:03:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:03:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:03:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Pets_option' is clicked on
+
+2018-04-03 11:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Pets_option' is clicked on
+
+2018-04-03 11:03:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Sport_category' is clicked on
+
+2018-04-03 11:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Sport_category' is clicked on
+
+2018-04-03 11:03:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:03:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:03:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Sport_category_option' is clicked on
+
+2018-04-03 11:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Sport_category_option' is clicked on
+
+2018-04-03 11:03:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Age' is clicked on
+
+2018-04-03 11:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Age' is clicked on
+
+2018-04-03 11:03:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_2/set_Age_option' is clicked on
+
+2018-04-03 11:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_2/set_Age_option' is clicked on
+
+2018-04-03 11:03:14 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Step_2/input_number_team'
+
+2018-04-03 11:03:14 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Step_2/input_number_team'
+
+2018-04-03 11:03:14 - [TEST_STEP][PASSED] - setText: Text '15' is set on object 'Object Repository/Step_2/input_covered'
+
+2018-04-03 11:03:14 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/Step_2/input_covered'
+
+2018-04-03 11:03:14 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/Step_2/input_Days'
+
+2018-04-03 11:03:14 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Step_2/input_Days'
+
+2018-04-03 11:03:14 - [TEST_STEP][PASSED] - setText: Text '300' is set on object 'Object Repository/Step_2/input_Budget'
+
+2018-04-03 11:03:14 - [MESSAGE][PASSED] - Text '300' is set on object 'Object Repository/Step_2/input_Budget'
+
+2018-04-03 11:03:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:03:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Save_draft' is clicked on
+
+2018-04-03 11:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Save_draft' is clicked on
+
+2018-04-03 11:03:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_1/ver_popup_report_was_saved' is visible
+
+2018-04-03 11:03:16 - [MESSAGE][PASSED] - Object 'Object Repository/Step_1/ver_popup_report_was_saved' is visible
+
+2018-04-03 11:03:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 11:03:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_report/Step 3" classname="Test Cases/Create_report/Step 3" status="PASSED">
+         <system-out><![CDATA[2018-04-03 11:03:16 - [TEST_CASE][PASSED] - Test Cases/Create_report/Step 3: Test Cases/Create_report/Step 3
+
+2018-04-03 11:03:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 11:03:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 11:03:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 11:03:22 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 11:03:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 11:03:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - mail = "rostyslav.biliaiev@route-report.com": null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - pass = "111111": null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - bigtext = org.apache.commons.lang.RandomStringUtils.randomNumeric(6000): null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - mydate = new java.util.Date(): null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - formattedDate = mydate.format("MMdd"): null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - dateHour = mydate.format("HHmmss"): null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - x = "_date_" + formattedDate + "_time_" + dateHour: null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - title = "Automated test was executed" + x: null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - authors_text = "Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors ": null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - Statement - youtube = "https://youtu.be/2VjmdTtcEQE": null
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 11:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 11:03:23 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 11:03:24 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 11:03:24 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 11:03:24 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 11:03:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 11:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 11:03:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-04-03 11:03:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-04-03 11:03:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:03:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:03:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_Edit_report_first' is clicked on
+
+2018-04-03 11:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_Edit_report_first' is clicked on
+
+2018-04-03 11:03:36 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Write report - Route Report'
+
+2018-04-03 11:03:41 - [MESSAGE][PASSED] - Switched to window with title: 'Write report - Route Report'
+
+2018-04-03 11:03:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:03:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:03:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Step3' is clicked on
+
+2018-04-03 11:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Step3' is clicked on
+
+2018-04-03 11:03:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_3/ver_Step_3_is_loaded' is visible
+
+2018-04-03 11:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/Step_3/ver_Step_3_is_loaded' is visible
+
+2018-04-03 11:03:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:03:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:03:46 - [TEST_STEP][PASSED] - setText: Text '704135904361005897078228190828990273269641908370355429223955895384843590758701016611371154370441203061156961064360920042449912499977761641152706082804211913814056431738703995537848000228540768962644478593919132692390282617396170259982387966581054788834749355633259654342365450032341977851020137958580647963516805379904545341508390086119780566576965938080337382943947961689934615130407393683507965133660000750705971260702427081165365013341333192879474726875793491728058246552257790448481996020222103231175234659052204211807246217792393332407151010670731664981432782220541299892465183452080674164907652250513017568781148856888263484959049300910214226682667155652172295309531233391963187601470995394696997679932728514210488243606027685035400175448873531303970660760908983467576598824357171545098400458155551894673907607324725630023340862582097457226471982457019727954062320210116770964812055980671838105020614520281880073612819012448412190563744253291771909639882781935899875504595635200485755243080147919534320422971477244389323030443457240340546492856186428567975189721675833186144011196406573446862635088666983569349355932758601194851433721403195213511348953451012506858036695363604427737866867657190534755015107099306663565526022850383835322971823013430371327335760767021390912121169480639972516454375157232320823230269627325624719098873947620999603711359775503535807135507283979989008926720481742401438788688327839704631552592713871457514358138302856941896747315644690222599442747556692891884451712720435459718701368559279023272591668454398768384981104949407384944167765785578271286314064129329439239667263784768832797228912530638905085632260555838857331901223973289060135772868795927022196698118924067351321807008026849479329610968337181159954348358274621936862875232510488045635581528217620475668057037590513067335105694726361545168898125505001823561185832064571102780153220747194653533213580673445871282069918822788180928400666221436869573039631130542366372894808743097430382245432955757136519713780654174453521211459469136701657460162388928063214925076380723386378862920547526311545479533773242133613866379563100287789366287252622682867500536339427089137060516784336225197987809016126033783115673628371474873842639641817640116078281062420257298250129030548816238970257049470188630766653397268276371676417525159659065999345219391684743499308995304738025730445426909234719958399465974652826175930130245440557311029209677151574114070076213578560556520761212115799308937663084278752336335425936697654501878524192449046671846804110969267115439820331611536711699432902755638088837692528009147545674269678827336239294611623859993237683516948908902799651556206579448024561810473392752585698346439093568387051146267046312006910101346124844660564667221507286033396601526214416906298585450133506005697769990658509265041946655455663602652310737134110700800550550109586120116391244159989828690765449062423125016205297951674015689733038231003952858047596556298502214556361521412337476169866696402553533711557915809348085163801124667852806243641552134308176386565812945521146260444790999584221918714446788586440878253866112690138853165188247407190180459942868695232555805802237116617790852525702801846623374348314572897088582141317888434892937921005235997894636921829576664717764931129298363963363880209018582471776890989146731312309758392175882949153778612586839520093410429251874017626939143618244265883969510645373890543384188192441008929395262592598506541714711446682413485122864444858464692050517353130078914385374732072981200326946612273207126526607724188531252886226267586936178765462414490132294521803490182776491605206115337142425352009293807218436857511494506355048662786554912957760250149166219970396802749180746350074575861620785991060374595176958538910087701384316187387052272884072778110217464317959100300645016741437358668685907390762155866249557462063591483293218534886438437910346866926454048601910414236611669418978108561239853170474680791085395217918018016983462208284429855304304302032397208406236905547215926204490102332234942694251291532282986253599057637887389098673177955077494171114110555423834803001406626272646457992101085482458751739208087705067246906843505374222097032166598723606326465166087947373310711521807741982172390408684748186209575487129515493950891245934174552285874639942843083048693343081823003801841998838170979379001814287820915184301903953950627129236143633643092304175148213478497103063818525167579522878630234185025257525918155186762166311431966332517168701663042201857475932670550820930159109154509680066015724998531901357386174350822916450162870341109215020651951830312630732355572956933112358411915563736778434025660765769931044547921605609273327341881789910359180446688554954541070778353816714768541671584679478417799876868381252541494757973262537248474031655092767354606695662418176610898294700192336914397024953115515287988438366436734267100727353260456941501099149811891301054410218084451226337086928088068614439219908033832882591417043364059107991363028747638826313024373711390846137759396762007325632402550367460251332856421577554796396257588519554330283585371286844956239497901908360713768171866625098434737667471970934172877325267499896785270785777416092759902840015324052633724802783069922718375258818114651175753203768010854362888119237897631888537384048564992637922411675086432335030935000890058479850299308220875001404708407784377325225304258843352572821591323413791146627781999566888060079229844252907817373345812643082171455414125036174536222472217964544303937701723044476704463776094357193619922669171538259790199826762927688811823953855838597176763365735846060912697928201371045811874371357203699983376100340769399048967452370680540160748647065241557771909124531040961831244045413121793104076152056552642834841942366270381786110410149370766321330225512328274503357212191130518249619582210340448908469955361652083474483996001077658839770842090644091283132388642864380490369286680307464631523837495871420503260652378431220179804312297870772556097' is set on object 'Object Repository/Step_3/input_preparation'
+
+2018-04-03 11:05:01 - [MESSAGE][PASSED] - Text '704135904361005897078228190828990273269641908370355429223955895384843590758701016611371154370441203061156961064360920042449912499977761641152706082804211913814056431738703995537848000228540768962644478593919132692390282617396170259982387966581054788834749355633259654342365450032341977851020137958580647963516805379904545341508390086119780566576965938080337382943947961689934615130407393683507965133660000750705971260702427081165365013341333192879474726875793491728058246552257790448481996020222103231175234659052204211807246217792393332407151010670731664981432782220541299892465183452080674164907652250513017568781148856888263484959049300910214226682667155652172295309531233391963187601470995394696997679932728514210488243606027685035400175448873531303970660760908983467576598824357171545098400458155551894673907607324725630023340862582097457226471982457019727954062320210116770964812055980671838105020614520281880073612819012448412190563744253291771909639882781935899875504595635200485755243080147919534320422971477244389323030443457240340546492856186428567975189721675833186144011196406573446862635088666983569349355932758601194851433721403195213511348953451012506858036695363604427737866867657190534755015107099306663565526022850383835322971823013430371327335760767021390912121169480639972516454375157232320823230269627325624719098873947620999603711359775503535807135507283979989008926720481742401438788688327839704631552592713871457514358138302856941896747315644690222599442747556692891884451712720435459718701368559279023272591668454398768384981104949407384944167765785578271286314064129329439239667263784768832797228912530638905085632260555838857331901223973289060135772868795927022196698118924067351321807008026849479329610968337181159954348358274621936862875232510488045635581528217620475668057037590513067335105694726361545168898125505001823561185832064571102780153220747194653533213580673445871282069918822788180928400666221436869573039631130542366372894808743097430382245432955757136519713780654174453521211459469136701657460162388928063214925076380723386378862920547526311545479533773242133613866379563100287789366287252622682867500536339427089137060516784336225197987809016126033783115673628371474873842639641817640116078281062420257298250129030548816238970257049470188630766653397268276371676417525159659065999345219391684743499308995304738025730445426909234719958399465974652826175930130245440557311029209677151574114070076213578560556520761212115799308937663084278752336335425936697654501878524192449046671846804110969267115439820331611536711699432902755638088837692528009147545674269678827336239294611623859993237683516948908902799651556206579448024561810473392752585698346439093568387051146267046312006910101346124844660564667221507286033396601526214416906298585450133506005697769990658509265041946655455663602652310737134110700800550550109586120116391244159989828690765449062423125016205297951674015689733038231003952858047596556298502214556361521412337476169866696402553533711557915809348085163801124667852806243641552134308176386565812945521146260444790999584221918714446788586440878253866112690138853165188247407190180459942868695232555805802237116617790852525702801846623374348314572897088582141317888434892937921005235997894636921829576664717764931129298363963363880209018582471776890989146731312309758392175882949153778612586839520093410429251874017626939143618244265883969510645373890543384188192441008929395262592598506541714711446682413485122864444858464692050517353130078914385374732072981200326946612273207126526607724188531252886226267586936178765462414490132294521803490182776491605206115337142425352009293807218436857511494506355048662786554912957760250149166219970396802749180746350074575861620785991060374595176958538910087701384316187387052272884072778110217464317959100300645016741437358668685907390762155866249557462063591483293218534886438437910346866926454048601910414236611669418978108561239853170474680791085395217918018016983462208284429855304304302032397208406236905547215926204490102332234942694251291532282986253599057637887389098673177955077494171114110555423834803001406626272646457992101085482458751739208087705067246906843505374222097032166598723606326465166087947373310711521807741982172390408684748186209575487129515493950891245934174552285874639942843083048693343081823003801841998838170979379001814287820915184301903953950627129236143633643092304175148213478497103063818525167579522878630234185025257525918155186762166311431966332517168701663042201857475932670550820930159109154509680066015724998531901357386174350822916450162870341109215020651951830312630732355572956933112358411915563736778434025660765769931044547921605609273327341881789910359180446688554954541070778353816714768541671584679478417799876868381252541494757973262537248474031655092767354606695662418176610898294700192336914397024953115515287988438366436734267100727353260456941501099149811891301054410218084451226337086928088068614439219908033832882591417043364059107991363028747638826313024373711390846137759396762007325632402550367460251332856421577554796396257588519554330283585371286844956239497901908360713768171866625098434737667471970934172877325267499896785270785777416092759902840015324052633724802783069922718375258818114651175753203768010854362888119237897631888537384048564992637922411675086432335030935000890058479850299308220875001404708407784377325225304258843352572821591323413791146627781999566888060079229844252907817373345812643082171455414125036174536222472217964544303937701723044476704463776094357193619922669171538259790199826762927688811823953855838597176763365735846060912697928201371045811874371357203699983376100340769399048967452370680540160748647065241557771909124531040961831244045413121793104076152056552642834841942366270381786110410149370766321330225512328274503357212191130518249619582210340448908469955361652083474483996001077658839770842090644091283132388642864380490369286680307464631523837495871420503260652378431220179804312297870772556097' is set on object 'Object Repository/Step_3/input_preparation'
+
+2018-04-03 11:05:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/Packinglist/but_Add_packing_list' is clicked on
+
+2018-04-03 11:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/Packinglist/but_Add_packing_list' is clicked on
+
+2018-04-03 11:05:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:05:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:05:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_3/Packinglist/ver_packing' is visible
+
+2018-04-03 11:05:03 - [MESSAGE][PASSED] - Object 'Object Repository/Step_3/Packinglist/ver_packing' is visible
+
+2018-04-03 11:05:03 - [TEST_STEP][PASSED] - setText: Text '_date_0403_time_110323' is set on object 'Object Repository/Step_3/Packinglist/input_Packing_name'
+
+2018-04-03 11:05:03 - [MESSAGE][PASSED] - Text '_date_0403_time_110323' is set on object 'Object Repository/Step_3/Packinglist/input_Packing_name'
+
+2018-04-03 11:05:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:05:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:05:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-03 11:05:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-03 11:05:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/Packinglist/but_add_description_Packing' is clicked on
+
+2018-04-03 11:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/Packinglist/but_add_description_Packing' is clicked on
+
+2018-04-03 11:05:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:05:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:05:09 - [TEST_STEP][PASSED] - setText: Text '_date_0403_time_110323' is set on object 'Object Repository/Step_3/Packinglist/input_desc_packing'
+
+2018-04-03 11:05:10 - [MESSAGE][PASSED] - Text '_date_0403_time_110323' is set on object 'Object Repository/Step_3/Packinglist/input_desc_packing'
+
+2018-04-03 11:05:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/Packinglist/but_brand' is clicked on
+
+2018-04-03 11:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/Packinglist/but_brand' is clicked on
+
+2018-04-03 11:05:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_3/Packinglist/input_brand_name' is visible
+
+2018-04-03 11:05:10 - [MESSAGE][PASSED] - Object 'Object Repository/Step_3/Packinglist/input_brand_name' is visible
+
+2018-04-03 11:05:10 - [TEST_STEP][PASSED] - setText: Text '_date_0403_time_110323' is set on object 'Object Repository/Step_3/Packinglist/input_brand_name'
+
+2018-04-03 11:05:10 - [MESSAGE][PASSED] - Text '_date_0403_time_110323' is set on object 'Object Repository/Step_3/Packinglist/input_brand_name'
+
+2018-04-03 11:05:10 - [TEST_STEP][PASSED] - setText: Text '_date_0403_time_110323' is set on object 'Object Repository/Step_3/Packinglist/input_model'
+
+2018-04-03 11:05:10 - [MESSAGE][PASSED] - Text '_date_0403_time_110323' is set on object 'Object Repository/Step_3/Packinglist/input_model'
+
+2018-04-03 11:05:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/Packinglist/but_save_packinglist' is clicked on
+
+2018-04-03 11:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/Packinglist/but_save_packinglist' is clicked on
+
+2018-04-03 11:05:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_3/Packinglist/ver_item_adde' is visible
+
+2018-04-03 11:05:11 - [MESSAGE][PASSED] - Object 'Object Repository/Step_3/Packinglist/ver_item_adde' is visible
+
+2018-04-03 11:05:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:05:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:05:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_1st_day' is clicked on
+
+2018-04-03 11:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_1st_day' is clicked on
+
+2018-04-03 11:05:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:05:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:05:13 - [TEST_STEP][PASSED] - setText: Text '704135904361005897078228190828990273269641908370355429223955895384843590758701016611371154370441203061156961064360920042449912499977761641152706082804211913814056431738703995537848000228540768962644478593919132692390282617396170259982387966581054788834749355633259654342365450032341977851020137958580647963516805379904545341508390086119780566576965938080337382943947961689934615130407393683507965133660000750705971260702427081165365013341333192879474726875793491728058246552257790448481996020222103231175234659052204211807246217792393332407151010670731664981432782220541299892465183452080674164907652250513017568781148856888263484959049300910214226682667155652172295309531233391963187601470995394696997679932728514210488243606027685035400175448873531303970660760908983467576598824357171545098400458155551894673907607324725630023340862582097457226471982457019727954062320210116770964812055980671838105020614520281880073612819012448412190563744253291771909639882781935899875504595635200485755243080147919534320422971477244389323030443457240340546492856186428567975189721675833186144011196406573446862635088666983569349355932758601194851433721403195213511348953451012506858036695363604427737866867657190534755015107099306663565526022850383835322971823013430371327335760767021390912121169480639972516454375157232320823230269627325624719098873947620999603711359775503535807135507283979989008926720481742401438788688327839704631552592713871457514358138302856941896747315644690222599442747556692891884451712720435459718701368559279023272591668454398768384981104949407384944167765785578271286314064129329439239667263784768832797228912530638905085632260555838857331901223973289060135772868795927022196698118924067351321807008026849479329610968337181159954348358274621936862875232510488045635581528217620475668057037590513067335105694726361545168898125505001823561185832064571102780153220747194653533213580673445871282069918822788180928400666221436869573039631130542366372894808743097430382245432955757136519713780654174453521211459469136701657460162388928063214925076380723386378862920547526311545479533773242133613866379563100287789366287252622682867500536339427089137060516784336225197987809016126033783115673628371474873842639641817640116078281062420257298250129030548816238970257049470188630766653397268276371676417525159659065999345219391684743499308995304738025730445426909234719958399465974652826175930130245440557311029209677151574114070076213578560556520761212115799308937663084278752336335425936697654501878524192449046671846804110969267115439820331611536711699432902755638088837692528009147545674269678827336239294611623859993237683516948908902799651556206579448024561810473392752585698346439093568387051146267046312006910101346124844660564667221507286033396601526214416906298585450133506005697769990658509265041946655455663602652310737134110700800550550109586120116391244159989828690765449062423125016205297951674015689733038231003952858047596556298502214556361521412337476169866696402553533711557915809348085163801124667852806243641552134308176386565812945521146260444790999584221918714446788586440878253866112690138853165188247407190180459942868695232555805802237116617790852525702801846623374348314572897088582141317888434892937921005235997894636921829576664717764931129298363963363880209018582471776890989146731312309758392175882949153778612586839520093410429251874017626939143618244265883969510645373890543384188192441008929395262592598506541714711446682413485122864444858464692050517353130078914385374732072981200326946612273207126526607724188531252886226267586936178765462414490132294521803490182776491605206115337142425352009293807218436857511494506355048662786554912957760250149166219970396802749180746350074575861620785991060374595176958538910087701384316187387052272884072778110217464317959100300645016741437358668685907390762155866249557462063591483293218534886438437910346866926454048601910414236611669418978108561239853170474680791085395217918018016983462208284429855304304302032397208406236905547215926204490102332234942694251291532282986253599057637887389098673177955077494171114110555423834803001406626272646457992101085482458751739208087705067246906843505374222097032166598723606326465166087947373310711521807741982172390408684748186209575487129515493950891245934174552285874639942843083048693343081823003801841998838170979379001814287820915184301903953950627129236143633643092304175148213478497103063818525167579522878630234185025257525918155186762166311431966332517168701663042201857475932670550820930159109154509680066015724998531901357386174350822916450162870341109215020651951830312630732355572956933112358411915563736778434025660765769931044547921605609273327341881789910359180446688554954541070778353816714768541671584679478417799876868381252541494757973262537248474031655092767354606695662418176610898294700192336914397024953115515287988438366436734267100727353260456941501099149811891301054410218084451226337086928088068614439219908033832882591417043364059107991363028747638826313024373711390846137759396762007325632402550367460251332856421577554796396257588519554330283585371286844956239497901908360713768171866625098434737667471970934172877325267499896785270785777416092759902840015324052633724802783069922718375258818114651175753203768010854362888119237897631888537384048564992637922411675086432335030935000890058479850299308220875001404708407784377325225304258843352572821591323413791146627781999566888060079229844252907817373345812643082171455414125036174536222472217964544303937701723044476704463776094357193619922669171538259790199826762927688811823953855838597176763365735846060912697928201371045811874371357203699983376100340769399048967452370680540160748647065241557771909124531040961831244045413121793104076152056552642834841942366270381786110410149370766321330225512328274503357212191130518249619582210340448908469955361652083474483996001077658839770842090644091283132388642864380490369286680307464631523837495871420503260652378431220179804312297870772556097' is set on object 'Object Repository/Step_3/input_text_days'
+
+2018-04-03 11:06:30 - [MESSAGE][PASSED] - Text '704135904361005897078228190828990273269641908370355429223955895384843590758701016611371154370441203061156961064360920042449912499977761641152706082804211913814056431738703995537848000228540768962644478593919132692390282617396170259982387966581054788834749355633259654342365450032341977851020137958580647963516805379904545341508390086119780566576965938080337382943947961689934615130407393683507965133660000750705971260702427081165365013341333192879474726875793491728058246552257790448481996020222103231175234659052204211807246217792393332407151010670731664981432782220541299892465183452080674164907652250513017568781148856888263484959049300910214226682667155652172295309531233391963187601470995394696997679932728514210488243606027685035400175448873531303970660760908983467576598824357171545098400458155551894673907607324725630023340862582097457226471982457019727954062320210116770964812055980671838105020614520281880073612819012448412190563744253291771909639882781935899875504595635200485755243080147919534320422971477244389323030443457240340546492856186428567975189721675833186144011196406573446862635088666983569349355932758601194851433721403195213511348953451012506858036695363604427737866867657190534755015107099306663565526022850383835322971823013430371327335760767021390912121169480639972516454375157232320823230269627325624719098873947620999603711359775503535807135507283979989008926720481742401438788688327839704631552592713871457514358138302856941896747315644690222599442747556692891884451712720435459718701368559279023272591668454398768384981104949407384944167765785578271286314064129329439239667263784768832797228912530638905085632260555838857331901223973289060135772868795927022196698118924067351321807008026849479329610968337181159954348358274621936862875232510488045635581528217620475668057037590513067335105694726361545168898125505001823561185832064571102780153220747194653533213580673445871282069918822788180928400666221436869573039631130542366372894808743097430382245432955757136519713780654174453521211459469136701657460162388928063214925076380723386378862920547526311545479533773242133613866379563100287789366287252622682867500536339427089137060516784336225197987809016126033783115673628371474873842639641817640116078281062420257298250129030548816238970257049470188630766653397268276371676417525159659065999345219391684743499308995304738025730445426909234719958399465974652826175930130245440557311029209677151574114070076213578560556520761212115799308937663084278752336335425936697654501878524192449046671846804110969267115439820331611536711699432902755638088837692528009147545674269678827336239294611623859993237683516948908902799651556206579448024561810473392752585698346439093568387051146267046312006910101346124844660564667221507286033396601526214416906298585450133506005697769990658509265041946655455663602652310737134110700800550550109586120116391244159989828690765449062423125016205297951674015689733038231003952858047596556298502214556361521412337476169866696402553533711557915809348085163801124667852806243641552134308176386565812945521146260444790999584221918714446788586440878253866112690138853165188247407190180459942868695232555805802237116617790852525702801846623374348314572897088582141317888434892937921005235997894636921829576664717764931129298363963363880209018582471776890989146731312309758392175882949153778612586839520093410429251874017626939143618244265883969510645373890543384188192441008929395262592598506541714711446682413485122864444858464692050517353130078914385374732072981200326946612273207126526607724188531252886226267586936178765462414490132294521803490182776491605206115337142425352009293807218436857511494506355048662786554912957760250149166219970396802749180746350074575861620785991060374595176958538910087701384316187387052272884072778110217464317959100300645016741437358668685907390762155866249557462063591483293218534886438437910346866926454048601910414236611669418978108561239853170474680791085395217918018016983462208284429855304304302032397208406236905547215926204490102332234942694251291532282986253599057637887389098673177955077494171114110555423834803001406626272646457992101085482458751739208087705067246906843505374222097032166598723606326465166087947373310711521807741982172390408684748186209575487129515493950891245934174552285874639942843083048693343081823003801841998838170979379001814287820915184301903953950627129236143633643092304175148213478497103063818525167579522878630234185025257525918155186762166311431966332517168701663042201857475932670550820930159109154509680066015724998531901357386174350822916450162870341109215020651951830312630732355572956933112358411915563736778434025660765769931044547921605609273327341881789910359180446688554954541070778353816714768541671584679478417799876868381252541494757973262537248474031655092767354606695662418176610898294700192336914397024953115515287988438366436734267100727353260456941501099149811891301054410218084451226337086928088068614439219908033832882591417043364059107991363028747638826313024373711390846137759396762007325632402550367460251332856421577554796396257588519554330283585371286844956239497901908360713768171866625098434737667471970934172877325267499896785270785777416092759902840015324052633724802783069922718375258818114651175753203768010854362888119237897631888537384048564992637922411675086432335030935000890058479850299308220875001404708407784377325225304258843352572821591323413791146627781999566888060079229844252907817373345812643082171455414125036174536222472217964544303937701723044476704463776094357193619922669171538259790199826762927688811823953855838597176763365735846060912697928201371045811874371357203699983376100340769399048967452370680540160748647065241557771909124531040961831244045413121793104076152056552642834841942366270381786110410149370766321330225512328274503357212191130518249619582210340448908469955361652083474483996001077658839770842090644091283132388642864380490369286680307464631523837495871420503260652378431220179804312297870772556097' is set on object 'Object Repository/Step_3/input_text_days'
+
+2018-04-03 11:06:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_3/but_add_places' is visible
+
+2018-04-03 11:06:30 - [MESSAGE][PASSED] - Object 'Object Repository/Step_3/but_add_places' is visible
+
+2018-04-03 11:06:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:06:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:06:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_add_places' is clicked on
+
+2018-04-03 11:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_add_places' is clicked on
+
+2018-04-03 11:06:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map_places/tab_waypoints_top_part' is visible
+
+2018-04-03 11:06:33 - [MESSAGE][PASSED] - Object 'Object Repository/Map_places/tab_waypoints_top_part' is visible
+
+2018-04-03 11:06:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:06:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:06:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/tab_waypoints_top_part' is clicked on
+
+2018-04-03 11:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/tab_waypoints_top_part' is clicked on
+
+2018-04-03 11:06:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map_places/ver_tab_waipoints_shows' is visible
+
+2018-04-03 11:06:34 - [MESSAGE][PASSED] - Object 'Object Repository/Map_places/ver_tab_waipoints_shows' is visible
+
+2018-04-03 11:06:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/tab_places_top_part' is clicked on
+
+2018-04-03 11:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/tab_places_top_part' is clicked on
+
+2018-04-03 11:06:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map_places/ver_tab_places_shows' is visible
+
+2018-04-03 11:06:34 - [MESSAGE][PASSED] - Object 'Object Repository/Map_places/ver_tab_places_shows' is visible
+
+2018-04-03 11:06:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/but_hide(show)_tabs' is clicked on
+
+2018-04-03 11:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/but_hide(show)_tabs' is clicked on
+
+2018-04-03 11:06:34 - [TEST_STEP][PASSED] - setText: Text 'London' is set on object 'Object Repository/Map_places/input_search'
+
+2018-04-03 11:06:35 - [MESSAGE][PASSED] - Text 'London' is set on object 'Object Repository/Map_places/input_search'
+
+2018-04-03 11:06:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_1st_result' is clicked on
+
+2018-04-03 11:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_1st_result' is clicked on
+
+2018-04-03 11:06:35 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-04-03 11:06:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-04-03 11:06:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map_places/but_choose_places' is visible
+
+2018-04-03 11:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/Map_places/but_choose_places' is visible
+
+2018-04-03 11:06:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/but_choose_places' is clicked on
+
+2018-04-03 11:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/but_choose_places' is clicked on
+
+2018-04-03 11:06:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:06:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:06:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map_places/but_add_place(begining)' is visible
+
+2018-04-03 11:06:40 - [MESSAGE][PASSED] - Object 'Object Repository/Map_places/but_add_place(begining)' is visible
+
+2018-04-03 11:06:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/but_add_place(begining)' is clicked on
+
+2018-04-03 11:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/but_add_place(begining)' is clicked on
+
+2018-04-03 11:06:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map_places/but_select_ORA_activity' is visible
+
+2018-04-03 11:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Map_places/but_select_ORA_activity' is visible
+
+2018-04-03 11:06:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/but_select_ORA_activity' is clicked on
+
+2018-04-03 11:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/but_select_ORA_activity' is clicked on
+
+2018-04-03 11:06:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/but_add_place_select_activity' is clicked on
+
+2018-04-03 11:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/but_add_place_select_activity' is clicked on
+
+2018-04-03 11:06:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map_places/input_place_name' is visible
+
+2018-04-03 11:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Map_places/input_place_name' is visible
+
+2018-04-03 11:06:41 - [TEST_STEP][PASSED] - setText: Text 'TestName' is set on object 'Object Repository/Map_places/input_place_name'
+
+2018-04-03 11:06:42 - [MESSAGE][PASSED] - Text 'TestName' is set on object 'Object Repository/Map_places/input_place_name'
+
+2018-04-03 11:06:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_place_category(2nd_lvl)' is clicked on
+
+2018-04-03 11:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_place_category(2nd_lvl)' is clicked on
+
+2018-04-03 11:06:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_2lvl_Water' is clicked on
+
+2018-04-03 11:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_2lvl_Water' is clicked on
+
+2018-04-03 11:06:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_places_category(3rd_lvl)' is clicked on
+
+2018-04-03 11:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_places_category(3rd_lvl)' is clicked on
+
+2018-04-03 11:06:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_3rd_lvl_Boat_trip' is clicked on
+
+2018-04-03 11:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_3rd_lvl_Boat_trip' is clicked on
+
+2018-04-03 11:06:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:06:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:06:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/but_set_days' is clicked on
+
+2018-04-03 11:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/but_set_days' is clicked on
+
+2018-04-03 11:06:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:06:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:06:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map_places/set_day' is visible
+
+2018-04-03 11:06:45 - [MESSAGE][PASSED] - Object 'Object Repository/Map_places/set_day' is visible
+
+2018-04-03 11:06:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/set_day' is clicked on
+
+2018-04-03 11:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/set_day' is clicked on
+
+2018-04-03 11:06:45 - [TEST_STEP][PASSED] - uploadFile: File 'D:\test-photo.jpg' sent to object: 'Object Repository/Map_places/add_photo_1'
+
+2018-04-03 11:06:46 - [MESSAGE][PASSED] - File 'D:\test-photo.jpg' sent to object: 'Object Repository/Map_places/add_photo_1'
+
+2018-04-03 11:06:46 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-04-03 11:06:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-04-03 11:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/Step 2_3' is clicked on
+
+2018-04-03 11:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/Step 2_3' is clicked on
+
+2018-04-03 11:06:50 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Map_places/input_mail'
+
+2018-04-03 11:06:51 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Map_places/input_mail'
+
+2018-04-03 11:06:51 - [TEST_STEP][PASSED] - setText: Text 'www.test.test' is set on object 'Object Repository/Map_places/input_web'
+
+2018-04-03 11:06:51 - [MESSAGE][PASSED] - Text 'www.test.test' is set on object 'Object Repository/Map_places/input_web'
+
+2018-04-03 11:06:51 - [TEST_STEP][PASSED] - setText: Text '132456798' is set on object 'Object Repository/Map_places/input_phone'
+
+2018-04-03 11:06:51 - [MESSAGE][PASSED] - Text '132456798' is set on object 'Object Repository/Map_places/input_phone'
+
+2018-04-03 11:06:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/Step_3_3' is clicked on
+
+2018-04-03 11:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/Step_3_3' is clicked on
+
+2018-04-03 11:06:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/but_rate' is clicked on
+
+2018-04-03 11:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/but_rate' is clicked on
+
+2018-04-03 11:06:52 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Map_places/input_price_place'
+
+2018-04-03 11:06:52 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Map_places/input_price_place'
+
+2018-04-03 11:06:52 - [TEST_STEP][PASSED] - setText: Text 'jhgjg' is set on object 'Object Repository/Map_places/input_feedback'
+
+2018-04-03 11:06:52 - [MESSAGE][PASSED] - Text 'jhgjg' is set on object 'Object Repository/Map_places/input_feedback'
+
+2018-04-03 11:06:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:06:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:06:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_add_other_categories' is clicked on
+
+2018-04-03 11:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_add_other_categories' is clicked on
+
+2018-04-03 11:06:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_ORA_other_categories' is clicked on
+
+2018-04-03 11:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_ORA_other_categories' is clicked on
+
+2018-04-03 11:06:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_2nd_lvl_other_activity' is clicked on
+
+2018-04-03 11:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_2nd_lvl_other_activity' is clicked on
+
+2018-04-03 11:06:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:06:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:06:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_2nd_lvl_Ground' is clicked on
+
+2018-04-03 11:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_2nd_lvl_Ground' is clicked on
+
+2018-04-03 11:06:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_3rd_lvl_categories' is clicked on
+
+2018-04-03 11:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_3rd_lvl_categories' is clicked on
+
+2018-04-03 11:06:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:06:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:06:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/select_3rd_lvl_Off-road' is clicked on
+
+2018-04-03 11:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/select_3rd_lvl_Off-road' is clicked on
+
+2018-04-03 11:06:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/but_add_other_categories' is clicked on
+
+2018-04-03 11:06:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/but_add_other_categories' is clicked on
+
+2018-04-03 11:06:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:07:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:07:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map_places/but_save_place' is clicked on
+
+2018-04-03 11:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Map_places/but_save_place' is clicked on
+
+2018-04-03 11:07:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Map_places/ver_tab_places_shows' is visible
+
+2018-04-03 11:07:00 - [MESSAGE][PASSED] - Object 'Object Repository/Map_places/ver_tab_places_shows' is visible
+
+2018-04-03 11:07:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:07:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:07:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Map/but_Close_Map' is clicked on
+
+2018-04-03 11:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Map/but_Close_Map' is clicked on
+
+2018-04-03 11:07:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_add_Youtube' is clicked on
+
+2018-04-03 11:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_add_Youtube' is clicked on
+
+2018-04-03 11:07:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_3/input_video_code' is visible
+
+2018-04-03 11:07:03 - [MESSAGE][PASSED] - Object 'Object Repository/Step_3/input_video_code' is visible
+
+2018-04-03 11:07:03 - [TEST_STEP][PASSED] - setText: Text 'https://youtu.be/2VjmdTtcEQE' is set on object 'Object Repository/Step_3/input_video_code'
+
+2018-04-03 11:07:03 - [MESSAGE][PASSED] - Text 'https://youtu.be/2VjmdTtcEQE' is set on object 'Object Repository/Step_3/input_video_code'
+
+2018-04-03 11:07:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_save_video_youtube' is clicked on
+
+2018-04-03 11:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_save_video_youtube' is clicked on
+
+2018-04-03 11:07:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:07:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:07:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:07:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:07:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_2nd_day' is clicked on
+
+2018-04-03 11:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_2nd_day' is clicked on
+
+2018-04-03 11:07:05 - [TEST_STEP][PASSED] - setText: Text '704135904361005897078228190828990273269641908370355429223955895384843590758701016611371154370441203061156961064360920042449912499977761641152706082804211913814056431738703995537848000228540768962644478593919132692390282617396170259982387966581054788834749355633259654342365450032341977851020137958580647963516805379904545341508390086119780566576965938080337382943947961689934615130407393683507965133660000750705971260702427081165365013341333192879474726875793491728058246552257790448481996020222103231175234659052204211807246217792393332407151010670731664981432782220541299892465183452080674164907652250513017568781148856888263484959049300910214226682667155652172295309531233391963187601470995394696997679932728514210488243606027685035400175448873531303970660760908983467576598824357171545098400458155551894673907607324725630023340862582097457226471982457019727954062320210116770964812055980671838105020614520281880073612819012448412190563744253291771909639882781935899875504595635200485755243080147919534320422971477244389323030443457240340546492856186428567975189721675833186144011196406573446862635088666983569349355932758601194851433721403195213511348953451012506858036695363604427737866867657190534755015107099306663565526022850383835322971823013430371327335760767021390912121169480639972516454375157232320823230269627325624719098873947620999603711359775503535807135507283979989008926720481742401438788688327839704631552592713871457514358138302856941896747315644690222599442747556692891884451712720435459718701368559279023272591668454398768384981104949407384944167765785578271286314064129329439239667263784768832797228912530638905085632260555838857331901223973289060135772868795927022196698118924067351321807008026849479329610968337181159954348358274621936862875232510488045635581528217620475668057037590513067335105694726361545168898125505001823561185832064571102780153220747194653533213580673445871282069918822788180928400666221436869573039631130542366372894808743097430382245432955757136519713780654174453521211459469136701657460162388928063214925076380723386378862920547526311545479533773242133613866379563100287789366287252622682867500536339427089137060516784336225197987809016126033783115673628371474873842639641817640116078281062420257298250129030548816238970257049470188630766653397268276371676417525159659065999345219391684743499308995304738025730445426909234719958399465974652826175930130245440557311029209677151574114070076213578560556520761212115799308937663084278752336335425936697654501878524192449046671846804110969267115439820331611536711699432902755638088837692528009147545674269678827336239294611623859993237683516948908902799651556206579448024561810473392752585698346439093568387051146267046312006910101346124844660564667221507286033396601526214416906298585450133506005697769990658509265041946655455663602652310737134110700800550550109586120116391244159989828690765449062423125016205297951674015689733038231003952858047596556298502214556361521412337476169866696402553533711557915809348085163801124667852806243641552134308176386565812945521146260444790999584221918714446788586440878253866112690138853165188247407190180459942868695232555805802237116617790852525702801846623374348314572897088582141317888434892937921005235997894636921829576664717764931129298363963363880209018582471776890989146731312309758392175882949153778612586839520093410429251874017626939143618244265883969510645373890543384188192441008929395262592598506541714711446682413485122864444858464692050517353130078914385374732072981200326946612273207126526607724188531252886226267586936178765462414490132294521803490182776491605206115337142425352009293807218436857511494506355048662786554912957760250149166219970396802749180746350074575861620785991060374595176958538910087701384316187387052272884072778110217464317959100300645016741437358668685907390762155866249557462063591483293218534886438437910346866926454048601910414236611669418978108561239853170474680791085395217918018016983462208284429855304304302032397208406236905547215926204490102332234942694251291532282986253599057637887389098673177955077494171114110555423834803001406626272646457992101085482458751739208087705067246906843505374222097032166598723606326465166087947373310711521807741982172390408684748186209575487129515493950891245934174552285874639942843083048693343081823003801841998838170979379001814287820915184301903953950627129236143633643092304175148213478497103063818525167579522878630234185025257525918155186762166311431966332517168701663042201857475932670550820930159109154509680066015724998531901357386174350822916450162870341109215020651951830312630732355572956933112358411915563736778434025660765769931044547921605609273327341881789910359180446688554954541070778353816714768541671584679478417799876868381252541494757973262537248474031655092767354606695662418176610898294700192336914397024953115515287988438366436734267100727353260456941501099149811891301054410218084451226337086928088068614439219908033832882591417043364059107991363028747638826313024373711390846137759396762007325632402550367460251332856421577554796396257588519554330283585371286844956239497901908360713768171866625098434737667471970934172877325267499896785270785777416092759902840015324052633724802783069922718375258818114651175753203768010854362888119237897631888537384048564992637922411675086432335030935000890058479850299308220875001404708407784377325225304258843352572821591323413791146627781999566888060079229844252907817373345812643082171455414125036174536222472217964544303937701723044476704463776094357193619922669171538259790199826762927688811823953855838597176763365735846060912697928201371045811874371357203699983376100340769399048967452370680540160748647065241557771909124531040961831244045413121793104076152056552642834841942366270381786110410149370766321330225512328274503357212191130518249619582210340448908469955361652083474483996001077658839770842090644091283132388642864380490369286680307464631523837495871420503260652378431220179804312297870772556097' is set on object 'Object Repository/Step_3/input_text_days'
+
+2018-04-03 11:08:31 - [MESSAGE][PASSED] - Text '704135904361005897078228190828990273269641908370355429223955895384843590758701016611371154370441203061156961064360920042449912499977761641152706082804211913814056431738703995537848000228540768962644478593919132692390282617396170259982387966581054788834749355633259654342365450032341977851020137958580647963516805379904545341508390086119780566576965938080337382943947961689934615130407393683507965133660000750705971260702427081165365013341333192879474726875793491728058246552257790448481996020222103231175234659052204211807246217792393332407151010670731664981432782220541299892465183452080674164907652250513017568781148856888263484959049300910214226682667155652172295309531233391963187601470995394696997679932728514210488243606027685035400175448873531303970660760908983467576598824357171545098400458155551894673907607324725630023340862582097457226471982457019727954062320210116770964812055980671838105020614520281880073612819012448412190563744253291771909639882781935899875504595635200485755243080147919534320422971477244389323030443457240340546492856186428567975189721675833186144011196406573446862635088666983569349355932758601194851433721403195213511348953451012506858036695363604427737866867657190534755015107099306663565526022850383835322971823013430371327335760767021390912121169480639972516454375157232320823230269627325624719098873947620999603711359775503535807135507283979989008926720481742401438788688327839704631552592713871457514358138302856941896747315644690222599442747556692891884451712720435459718701368559279023272591668454398768384981104949407384944167765785578271286314064129329439239667263784768832797228912530638905085632260555838857331901223973289060135772868795927022196698118924067351321807008026849479329610968337181159954348358274621936862875232510488045635581528217620475668057037590513067335105694726361545168898125505001823561185832064571102780153220747194653533213580673445871282069918822788180928400666221436869573039631130542366372894808743097430382245432955757136519713780654174453521211459469136701657460162388928063214925076380723386378862920547526311545479533773242133613866379563100287789366287252622682867500536339427089137060516784336225197987809016126033783115673628371474873842639641817640116078281062420257298250129030548816238970257049470188630766653397268276371676417525159659065999345219391684743499308995304738025730445426909234719958399465974652826175930130245440557311029209677151574114070076213578560556520761212115799308937663084278752336335425936697654501878524192449046671846804110969267115439820331611536711699432902755638088837692528009147545674269678827336239294611623859993237683516948908902799651556206579448024561810473392752585698346439093568387051146267046312006910101346124844660564667221507286033396601526214416906298585450133506005697769990658509265041946655455663602652310737134110700800550550109586120116391244159989828690765449062423125016205297951674015689733038231003952858047596556298502214556361521412337476169866696402553533711557915809348085163801124667852806243641552134308176386565812945521146260444790999584221918714446788586440878253866112690138853165188247407190180459942868695232555805802237116617790852525702801846623374348314572897088582141317888434892937921005235997894636921829576664717764931129298363963363880209018582471776890989146731312309758392175882949153778612586839520093410429251874017626939143618244265883969510645373890543384188192441008929395262592598506541714711446682413485122864444858464692050517353130078914385374732072981200326946612273207126526607724188531252886226267586936178765462414490132294521803490182776491605206115337142425352009293807218436857511494506355048662786554912957760250149166219970396802749180746350074575861620785991060374595176958538910087701384316187387052272884072778110217464317959100300645016741437358668685907390762155866249557462063591483293218534886438437910346866926454048601910414236611669418978108561239853170474680791085395217918018016983462208284429855304304302032397208406236905547215926204490102332234942694251291532282986253599057637887389098673177955077494171114110555423834803001406626272646457992101085482458751739208087705067246906843505374222097032166598723606326465166087947373310711521807741982172390408684748186209575487129515493950891245934174552285874639942843083048693343081823003801841998838170979379001814287820915184301903953950627129236143633643092304175148213478497103063818525167579522878630234185025257525918155186762166311431966332517168701663042201857475932670550820930159109154509680066015724998531901357386174350822916450162870341109215020651951830312630732355572956933112358411915563736778434025660765769931044547921605609273327341881789910359180446688554954541070778353816714768541671584679478417799876868381252541494757973262537248474031655092767354606695662418176610898294700192336914397024953115515287988438366436734267100727353260456941501099149811891301054410218084451226337086928088068614439219908033832882591417043364059107991363028747638826313024373711390846137759396762007325632402550367460251332856421577554796396257588519554330283585371286844956239497901908360713768171866625098434737667471970934172877325267499896785270785777416092759902840015324052633724802783069922718375258818114651175753203768010854362888119237897631888537384048564992637922411675086432335030935000890058479850299308220875001404708407784377325225304258843352572821591323413791146627781999566888060079229844252907817373345812643082171455414125036174536222472217964544303937701723044476704463776094357193619922669171538259790199826762927688811823953855838597176763365735846060912697928201371045811874371357203699983376100340769399048967452370680540160748647065241557771909124531040961831244045413121793104076152056552642834841942366270381786110410149370766321330225512328274503357212191130518249619582210340448908469955361652083474483996001077658839770842090644091283132388642864380490369286680307464631523837495871420503260652378431220179804312297870772556097' is set on object 'Object Repository/Step_3/input_text_days'
+
+2018-04-03 11:08:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:08:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:08:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_add_Youtube' is clicked on
+
+2018-04-03 11:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_add_Youtube' is clicked on
+
+2018-04-03 11:08:33 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_3/input_video_code' is visible
+
+2018-04-03 11:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Step_3/input_video_code' is visible
+
+2018-04-03 11:08:33 - [TEST_STEP][PASSED] - setText: Text 'https://youtu.be/2VjmdTtcEQE' is set on object 'Object Repository/Step_3/input_video_code'
+
+2018-04-03 11:08:34 - [MESSAGE][PASSED] - Text 'https://youtu.be/2VjmdTtcEQE' is set on object 'Object Repository/Step_3/input_video_code'
+
+2018-04-03 11:08:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_save_video_youtube' is clicked on
+
+2018-04-03 11:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_save_video_youtube' is clicked on
+
+2018-04-03 11:08:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:08:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:08:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:08:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:08:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_3rd_day' is clicked on
+
+2018-04-03 11:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_3rd_day' is clicked on
+
+2018-04-03 11:08:38 - [TEST_STEP][PASSED] - setText: Text '704135904361005897078228190828990273269641908370355429223955895384843590758701016611371154370441203061156961064360920042449912499977761641152706082804211913814056431738703995537848000228540768962644478593919132692390282617396170259982387966581054788834749355633259654342365450032341977851020137958580647963516805379904545341508390086119780566576965938080337382943947961689934615130407393683507965133660000750705971260702427081165365013341333192879474726875793491728058246552257790448481996020222103231175234659052204211807246217792393332407151010670731664981432782220541299892465183452080674164907652250513017568781148856888263484959049300910214226682667155652172295309531233391963187601470995394696997679932728514210488243606027685035400175448873531303970660760908983467576598824357171545098400458155551894673907607324725630023340862582097457226471982457019727954062320210116770964812055980671838105020614520281880073612819012448412190563744253291771909639882781935899875504595635200485755243080147919534320422971477244389323030443457240340546492856186428567975189721675833186144011196406573446862635088666983569349355932758601194851433721403195213511348953451012506858036695363604427737866867657190534755015107099306663565526022850383835322971823013430371327335760767021390912121169480639972516454375157232320823230269627325624719098873947620999603711359775503535807135507283979989008926720481742401438788688327839704631552592713871457514358138302856941896747315644690222599442747556692891884451712720435459718701368559279023272591668454398768384981104949407384944167765785578271286314064129329439239667263784768832797228912530638905085632260555838857331901223973289060135772868795927022196698118924067351321807008026849479329610968337181159954348358274621936862875232510488045635581528217620475668057037590513067335105694726361545168898125505001823561185832064571102780153220747194653533213580673445871282069918822788180928400666221436869573039631130542366372894808743097430382245432955757136519713780654174453521211459469136701657460162388928063214925076380723386378862920547526311545479533773242133613866379563100287789366287252622682867500536339427089137060516784336225197987809016126033783115673628371474873842639641817640116078281062420257298250129030548816238970257049470188630766653397268276371676417525159659065999345219391684743499308995304738025730445426909234719958399465974652826175930130245440557311029209677151574114070076213578560556520761212115799308937663084278752336335425936697654501878524192449046671846804110969267115439820331611536711699432902755638088837692528009147545674269678827336239294611623859993237683516948908902799651556206579448024561810473392752585698346439093568387051146267046312006910101346124844660564667221507286033396601526214416906298585450133506005697769990658509265041946655455663602652310737134110700800550550109586120116391244159989828690765449062423125016205297951674015689733038231003952858047596556298502214556361521412337476169866696402553533711557915809348085163801124667852806243641552134308176386565812945521146260444790999584221918714446788586440878253866112690138853165188247407190180459942868695232555805802237116617790852525702801846623374348314572897088582141317888434892937921005235997894636921829576664717764931129298363963363880209018582471776890989146731312309758392175882949153778612586839520093410429251874017626939143618244265883969510645373890543384188192441008929395262592598506541714711446682413485122864444858464692050517353130078914385374732072981200326946612273207126526607724188531252886226267586936178765462414490132294521803490182776491605206115337142425352009293807218436857511494506355048662786554912957760250149166219970396802749180746350074575861620785991060374595176958538910087701384316187387052272884072778110217464317959100300645016741437358668685907390762155866249557462063591483293218534886438437910346866926454048601910414236611669418978108561239853170474680791085395217918018016983462208284429855304304302032397208406236905547215926204490102332234942694251291532282986253599057637887389098673177955077494171114110555423834803001406626272646457992101085482458751739208087705067246906843505374222097032166598723606326465166087947373310711521807741982172390408684748186209575487129515493950891245934174552285874639942843083048693343081823003801841998838170979379001814287820915184301903953950627129236143633643092304175148213478497103063818525167579522878630234185025257525918155186762166311431966332517168701663042201857475932670550820930159109154509680066015724998531901357386174350822916450162870341109215020651951830312630732355572956933112358411915563736778434025660765769931044547921605609273327341881789910359180446688554954541070778353816714768541671584679478417799876868381252541494757973262537248474031655092767354606695662418176610898294700192336914397024953115515287988438366436734267100727353260456941501099149811891301054410218084451226337086928088068614439219908033832882591417043364059107991363028747638826313024373711390846137759396762007325632402550367460251332856421577554796396257588519554330283585371286844956239497901908360713768171866625098434737667471970934172877325267499896785270785777416092759902840015324052633724802783069922718375258818114651175753203768010854362888119237897631888537384048564992637922411675086432335030935000890058479850299308220875001404708407784377325225304258843352572821591323413791146627781999566888060079229844252907817373345812643082171455414125036174536222472217964544303937701723044476704463776094357193619922669171538259790199826762927688811823953855838597176763365735846060912697928201371045811874371357203699983376100340769399048967452370680540160748647065241557771909124531040961831244045413121793104076152056552642834841942366270381786110410149370766321330225512328274503357212191130518249619582210340448908469955361652083474483996001077658839770842090644091283132388642864380490369286680307464631523837495871420503260652378431220179804312297870772556097' is set on object 'Object Repository/Step_3/input_text_days'
+
+2018-04-03 11:10:01 - [MESSAGE][PASSED] - Text '704135904361005897078228190828990273269641908370355429223955895384843590758701016611371154370441203061156961064360920042449912499977761641152706082804211913814056431738703995537848000228540768962644478593919132692390282617396170259982387966581054788834749355633259654342365450032341977851020137958580647963516805379904545341508390086119780566576965938080337382943947961689934615130407393683507965133660000750705971260702427081165365013341333192879474726875793491728058246552257790448481996020222103231175234659052204211807246217792393332407151010670731664981432782220541299892465183452080674164907652250513017568781148856888263484959049300910214226682667155652172295309531233391963187601470995394696997679932728514210488243606027685035400175448873531303970660760908983467576598824357171545098400458155551894673907607324725630023340862582097457226471982457019727954062320210116770964812055980671838105020614520281880073612819012448412190563744253291771909639882781935899875504595635200485755243080147919534320422971477244389323030443457240340546492856186428567975189721675833186144011196406573446862635088666983569349355932758601194851433721403195213511348953451012506858036695363604427737866867657190534755015107099306663565526022850383835322971823013430371327335760767021390912121169480639972516454375157232320823230269627325624719098873947620999603711359775503535807135507283979989008926720481742401438788688327839704631552592713871457514358138302856941896747315644690222599442747556692891884451712720435459718701368559279023272591668454398768384981104949407384944167765785578271286314064129329439239667263784768832797228912530638905085632260555838857331901223973289060135772868795927022196698118924067351321807008026849479329610968337181159954348358274621936862875232510488045635581528217620475668057037590513067335105694726361545168898125505001823561185832064571102780153220747194653533213580673445871282069918822788180928400666221436869573039631130542366372894808743097430382245432955757136519713780654174453521211459469136701657460162388928063214925076380723386378862920547526311545479533773242133613866379563100287789366287252622682867500536339427089137060516784336225197987809016126033783115673628371474873842639641817640116078281062420257298250129030548816238970257049470188630766653397268276371676417525159659065999345219391684743499308995304738025730445426909234719958399465974652826175930130245440557311029209677151574114070076213578560556520761212115799308937663084278752336335425936697654501878524192449046671846804110969267115439820331611536711699432902755638088837692528009147545674269678827336239294611623859993237683516948908902799651556206579448024561810473392752585698346439093568387051146267046312006910101346124844660564667221507286033396601526214416906298585450133506005697769990658509265041946655455663602652310737134110700800550550109586120116391244159989828690765449062423125016205297951674015689733038231003952858047596556298502214556361521412337476169866696402553533711557915809348085163801124667852806243641552134308176386565812945521146260444790999584221918714446788586440878253866112690138853165188247407190180459942868695232555805802237116617790852525702801846623374348314572897088582141317888434892937921005235997894636921829576664717764931129298363963363880209018582471776890989146731312309758392175882949153778612586839520093410429251874017626939143618244265883969510645373890543384188192441008929395262592598506541714711446682413485122864444858464692050517353130078914385374732072981200326946612273207126526607724188531252886226267586936178765462414490132294521803490182776491605206115337142425352009293807218436857511494506355048662786554912957760250149166219970396802749180746350074575861620785991060374595176958538910087701384316187387052272884072778110217464317959100300645016741437358668685907390762155866249557462063591483293218534886438437910346866926454048601910414236611669418978108561239853170474680791085395217918018016983462208284429855304304302032397208406236905547215926204490102332234942694251291532282986253599057637887389098673177955077494171114110555423834803001406626272646457992101085482458751739208087705067246906843505374222097032166598723606326465166087947373310711521807741982172390408684748186209575487129515493950891245934174552285874639942843083048693343081823003801841998838170979379001814287820915184301903953950627129236143633643092304175148213478497103063818525167579522878630234185025257525918155186762166311431966332517168701663042201857475932670550820930159109154509680066015724998531901357386174350822916450162870341109215020651951830312630732355572956933112358411915563736778434025660765769931044547921605609273327341881789910359180446688554954541070778353816714768541671584679478417799876868381252541494757973262537248474031655092767354606695662418176610898294700192336914397024953115515287988438366436734267100727353260456941501099149811891301054410218084451226337086928088068614439219908033832882591417043364059107991363028747638826313024373711390846137759396762007325632402550367460251332856421577554796396257588519554330283585371286844956239497901908360713768171866625098434737667471970934172877325267499896785270785777416092759902840015324052633724802783069922718375258818114651175753203768010854362888119237897631888537384048564992637922411675086432335030935000890058479850299308220875001404708407784377325225304258843352572821591323413791146627781999566888060079229844252907817373345812643082171455414125036174536222472217964544303937701723044476704463776094357193619922669171538259790199826762927688811823953855838597176763365735846060912697928201371045811874371357203699983376100340769399048967452370680540160748647065241557771909124531040961831244045413121793104076152056552642834841942366270381786110410149370766321330225512328274503357212191130518249619582210340448908469955361652083474483996001077658839770842090644091283132388642864380490369286680307464631523837495871420503260652378431220179804312297870772556097' is set on object 'Object Repository/Step_3/input_text_days'
+
+2018-04-03 11:10:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:10:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:10:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_add_Youtube' is clicked on
+
+2018-04-03 11:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_add_Youtube' is clicked on
+
+2018-04-03 11:10:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_3/input_video_code' is visible
+
+2018-04-03 11:10:04 - [MESSAGE][PASSED] - Object 'Object Repository/Step_3/input_video_code' is visible
+
+2018-04-03 11:10:04 - [TEST_STEP][PASSED] - setText: Text 'https://youtu.be/2VjmdTtcEQE' is set on object 'Object Repository/Step_3/input_video_code'
+
+2018-04-03 11:10:04 - [MESSAGE][PASSED] - Text 'https://youtu.be/2VjmdTtcEQE' is set on object 'Object Repository/Step_3/input_video_code'
+
+2018-04-03 11:10:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_3/but_save_video_youtube' is clicked on
+
+2018-04-03 11:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_3/but_save_video_youtube' is clicked on
+
+2018-04-03 11:10:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:10:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:10:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 11:10:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_report/Step 4-5" classname="Test Cases/Create_report/Step 4-5" status="PASSED">
+         <system-out><![CDATA[2018-04-03 11:10:07 - [TEST_CASE][PASSED] - Test Cases/Create_report/Step 4-5: Test Cases/Create_report/Step 4-5
+
+2018-04-03 11:10:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 11:10:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 11:10:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 11:10:13 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 11:10:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 11:10:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - mail = "rostyslav.biliaiev@route-report.com": null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - pass = "111111": null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - bigtext = org.apache.commons.lang.RandomStringUtils.randomNumeric(2000): null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - mydate = new java.util.Date(): null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - formattedDate = mydate.format("MMdd"): null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - dateHour = mydate.format("HHmmss"): null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - x = "_date_" + formattedDate + "_time_" + dateHour: null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - title = "Automated test was executed" + x: null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - authors_text = "Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors Text from authors ": null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - Statement - youtube = "https://youtu.be/2VjmdTtcEQE": null
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 11:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 11:10:14 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 11:10:15 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 11:10:15 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 11:10:15 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 11:10:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 11:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 11:10:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-04-03 11:10:20 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-04-03 11:10:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:10:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:10:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_Edit_report_first' is clicked on
+
+2018-04-03 11:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_Edit_report_first' is clicked on
+
+2018-04-03 11:10:22 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Write report - Route Report'
+
+2018-04-03 11:10:27 - [MESSAGE][PASSED] - Switched to window with title: 'Write report - Route Report'
+
+2018-04-03 11:10:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 11:10:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 11:10:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_1/but_Step4' is clicked on
+
+2018-04-03 11:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_1/but_Step4' is clicked on
+
+2018-04-03 11:10:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_4/ver_step4_isloaded' is visible
+
+2018-04-03 11:10:28 - [MESSAGE][PASSED] - Object 'Object Repository/Step_4/ver_step4_isloaded' is visible
+
+2018-04-03 11:10:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:10:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:10:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_4/but_add_language' is clicked on
+
+2018-04-03 11:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_4/but_add_language' is clicked on
+
+2018-04-03 11:10:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_4/EN_lang' is clicked on
+
+2018-04-03 11:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_4/EN_lang' is clicked on
+
+2018-04-03 11:10:31 - [TEST_STEP][PASSED] - setText: Text '13245678' is set on object 'Object Repository/Step_4/input_phone'
+
+2018-04-03 11:10:31 - [MESSAGE][PASSED] - Text '13245678' is set on object 'Object Repository/Step_4/input_phone'
+
+2018-04-03 11:10:31 - [TEST_STEP][PASSED] - setText: Text 'mail@com.com' is set on object 'Object Repository/Step_4/input_mail'
+
+2018-04-03 11:10:31 - [MESSAGE][PASSED] - Text 'mail@com.com' is set on object 'Object Repository/Step_4/input_mail'
+
+2018-04-03 11:10:31 - [TEST_STEP][PASSED] - setText: Text 'FB' is set on object 'Object Repository/Step_4/input_FB'
+
+2018-04-03 11:10:31 - [MESSAGE][PASSED] - Text 'FB' is set on object 'Object Repository/Step_4/input_FB'
+
+2018-04-03 11:10:31 - [TEST_STEP][PASSED] - setText: Text 'Skype' is set on object 'Object Repository/Step_4/input_Skype'
+
+2018-04-03 11:10:31 - [MESSAGE][PASSED] - Text 'Skype' is set on object 'Object Repository/Step_4/input_Skype'
+
+2018-04-03 11:10:31 - [TEST_STEP][PASSED] - setText: Text '132132' is set on object 'Object Repository/Step_4/inpuit_viber'
+
+2018-04-03 11:10:32 - [MESSAGE][PASSED] - Text '132132' is set on object 'Object Repository/Step_4/inpuit_viber'
+
+2018-04-03 11:10:32 - [TEST_STEP][PASSED] - setText: Text '32123' is set on object 'Object Repository/Step_4/input_Whatapp'
+
+2018-04-03 11:10:32 - [MESSAGE][PASSED] - Text '32123' is set on object 'Object Repository/Step_4/input_Whatapp'
+
+2018-04-03 11:10:32 - [TEST_STEP][PASSED] - setText: Text 'x' is set on object 'Object Repository/Step_4/input_coment'
+
+2018-04-03 11:10:32 - [MESSAGE][PASSED] - Text 'x' is set on object 'Object Repository/Step_4/input_coment'
+
+2018-04-03 11:10:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_4/button_Next_step5' is clicked on
+
+2018-04-03 11:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_4/button_Next_step5' is clicked on
+
+2018-04-03 11:10:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_5/ver_Step5_isloaded' is visible
+
+2018-04-03 11:10:33 - [MESSAGE][PASSED] - Object 'Object Repository/Step_5/ver_Step5_isloaded' is visible
+
+2018-04-03 11:10:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:10:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:10:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_5/but_Publish_report' is clicked on
+
+2018-04-03 11:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_5/but_Publish_report' is clicked on
+
+2018-04-03 11:10:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 11:10:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 11:10:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Step_5/ver_publish_ok' is visible
+
+2018-04-03 11:10:38 - [MESSAGE][PASSED] - Object 'Object Repository/Step_5/ver_publish_ok' is visible
+
+2018-04-03 11:10:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-03 11:10:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-03 11:10:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Step_5/but_OK_cong' is clicked on
+
+2018-04-03 11:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Step_5/but_OK_cong' is clicked on
+
+2018-04-03 11:10:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 11:10:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-03 11:00:52 - [TEST_SUITE][PASSED] - Add_report: Test Cases/Create_report/Step 4-5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

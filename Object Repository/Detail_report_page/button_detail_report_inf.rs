@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_detail_report_inf</name>
+   <tag></tag>
+   <elementGuidId>a210da7a-66a5-4fcd-a4ef-2a6cc98273f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>.//*[@id='author_activity']/div[1]/div[3]/div/div[3]/div[5]/div[2]/i[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>.//*[@id='author_activity']/div[1]/div[3]/div/div[3]/div[5]/div[2]/i[2]</value>
+   </webElementProperties>
+</WebElementEntity>

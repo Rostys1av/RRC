@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_submenu_Details_top_CR</name>
+   <tag></tag>
+   <elementGuidId>14b6a553-7f88-43a0-b317-afe6fb90d8a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//ul[@class='submenu'])[3]/li[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//ul[@class='submenu'])[3]/li[6]</value>
+   </webElementProperties>
+</WebElementEntity>

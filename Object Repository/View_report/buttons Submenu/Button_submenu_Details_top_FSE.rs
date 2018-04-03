@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_submenu_Details_top_FSE</name>
+   <tag></tag>
+   <elementGuidId>5e699b01-1e93-4bae-93b1-931e40c706fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//ul[@class='submenu'])[3]/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//ul[@class='submenu'])[3]/li[2]</value>
+   </webElementProperties>
+</WebElementEntity>

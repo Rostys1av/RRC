@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Clicks_without_logging" time="297" tests="9" failures="1" errors="0">
+   <testsuite name="Clicks_without_logging" tests="9" failures="1" errors="0" time="297" timestamp="2018-04-02 09:06:45" hostname="user - BrainPc" id="Test Suites/Clicks_without_logging">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Clicks_without_logging\\20180402_090634"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Clicks_without_logging\\20180402_090634\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Clicks_without_logging\\20180402_090634\\1522649501722.png"/>
+         <property name="hostName" value="user - BrainPc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.137.2"/>
+         <property name="sessionId" value="f1839c69042c709be479ae678d28b17a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (About Us) - without logging" classname="Test Cases/Clicks_with_out_login/Clicks (About Us) - without logging" status="PASSED">
+         <system-out><![CDATA[2018-04-02 09:06:46 - [TEST_CASE][PASSED] - Test Cases/Clicks_with_out_login/Clicks (About Us) - without logging: Test Cases/Clicks_with_out_login/Clicks (About Us) - without logging
+
+2018-04-02 09:06:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:06:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:06:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:06:57 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:06:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:06:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:06:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Button_JOIN US NOW' is clicked on
+
+2018-04-02 09:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Button_JOIN US NOW' is clicked on
+
+2018-04-02 09:07:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:07:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:07:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/About US/Close_button_registration_pop-up' is present
+
+2018-04-02 09:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/About US/Close_button_registration_pop-up' is present
+
+2018-04-02 09:07:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Button_Sign_Up' is clicked on
+
+2018-04-02 09:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Button_Sign_Up' is clicked on
+
+2018-04-02 09:07:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:07:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:07:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/About US/Close_button_registration_pop-up' is present
+
+2018-04-02 09:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/About US/Close_button_registration_pop-up' is present
+
+2018-04-02 09:07:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Icon_Button_Sign_Up' is clicked on
+
+2018-04-02 09:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Icon_Button_Sign_Up' is clicked on
+
+2018-04-02 09:07:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:07:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:07:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/About US/Close_button_registration_pop-up' is present
+
+2018-04-02 09:07:07 - [MESSAGE][PASSED] - Object 'Object Repository/About US/Close_button_registration_pop-up' is present
+
+2018-04-02 09:07:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Botton_Manual' is clicked on
+
+2018-04-02 09:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Botton_Manual' is clicked on
+
+2018-04-02 09:07:07 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'User manual - Route Report'
+
+2018-04-02 09:07:09 - [MESSAGE][PASSED] - Switched to window with title: 'User manual - Route Report'
+
+2018-04-02 09:07:09 - [TEST_STEP][PASSED] - Statement - titleWindowManual_1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'User manual - Route Report'
+
+2018-04-02 09:07:09 - [MESSAGE][PASSED] - Current window's title is: 'User manual - Route Report'
+
+2018-04-02 09:07:09 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'User manual - Route Report' and expected text 'User manual - Route Report' are matched 
+
+2018-04-02 09:07:09 - [MESSAGE][PASSED] - Actual text 'User manual - Route Report' and expected text 'User manual - Route Report' are matched 
+
+2018-04-02 09:07:09 - [TEST_STEP][PASSED] - closeWindowTitle: Window with title: 'User manual - Route Report' is closed
+
+2018-04-02 09:07:09 - [MESSAGE][PASSED] - Window with title: 'User manual - Route Report' is closed
+
+2018-04-02 09:07:09 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Route Report - Earn money while traveling'
+
+2018-04-02 09:07:09 - [MESSAGE][PASSED] - Switched to window with title: 'Route Report - Earn money while traveling'
+
+2018-04-02 09:07:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Icon_Button_Manual' is clicked on
+
+2018-04-02 09:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Icon_Button_Manual' is clicked on
+
+2018-04-02 09:07:10 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'User manual - Route Report'
+
+2018-04-02 09:07:11 - [MESSAGE][PASSED] - Switched to window with title: 'User manual - Route Report'
+
+2018-04-02 09:07:11 - [TEST_STEP][PASSED] - Statement - titleWindowManual_2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'User manual - Route Report'
+
+2018-04-02 09:07:11 - [MESSAGE][PASSED] - Current window's title is: 'User manual - Route Report'
+
+2018-04-02 09:07:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'User manual - Route Report' and expected text 'User manual - Route Report' are matched 
+
+2018-04-02 09:07:11 - [MESSAGE][PASSED] - Actual text 'User manual - Route Report' and expected text 'User manual - Route Report' are matched 
+
+2018-04-02 09:07:11 - [TEST_STEP][PASSED] - closeWindowTitle: Window with title: 'User manual - Route Report' is closed
+
+2018-04-02 09:07:11 - [MESSAGE][PASSED] - Window with title: 'User manual - Route Report' is closed
+
+2018-04-02 09:07:11 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Route Report - Earn money while traveling'
+
+2018-04-02 09:07:12 - [MESSAGE][PASSED] - Switched to window with title: 'Route Report - Earn money while traveling'
+
+2018-04-02 09:07:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Button_Add_report' is clicked on
+
+2018-04-02 09:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Button_Add_report' is clicked on
+
+2018-04-02 09:07:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/About US/Pop_up_select_kind_of_travel' is not present after 5 second(s)
+
+2018-04-02 09:07:18 - [MESSAGE][WARNING] - Object 'Object Repository/About US/Pop_up_select_kind_of_travel' is not present after 5 second(s)
+
+2018-04-02 09:07:18 - [TEST_STEP][PASSED] - Statement - titleWindowAdd_report_1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Write report - Route Report'
+
+2018-04-02 09:07:18 - [MESSAGE][PASSED] - Current window's title is: 'Write report - Route Report'
+
+2018-04-02 09:07:18 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-04-02 09:07:19 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-04-02 09:07:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Icon_Button_Add_report' is clicked on
+
+2018-04-02 09:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Icon_Button_Add_report' is clicked on
+
+2018-04-02 09:07:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/About US/Pop_up_select_kind_of_travel' is not present after 5 second(s)
+
+2018-04-02 09:07:25 - [MESSAGE][WARNING] - Object 'Object Repository/About US/Pop_up_select_kind_of_travel' is not present after 5 second(s)
+
+2018-04-02 09:07:25 - [TEST_STEP][PASSED] - closeWindowTitle: Window with title: 'Write report - Route Report' is closed
+
+2018-04-02 09:07:26 - [MESSAGE][PASSED] - Window with title: 'Write report - Route Report' is closed
+
+2018-04-02 09:07:26 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Route Report - Earn money while traveling'
+
+2018-04-02 09:07:26 - [MESSAGE][PASSED] - Switched to window with title: 'Route Report - Earn money while traveling'
+
+2018-04-02 09:07:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Icon_FAQ' is clicked on
+
+2018-04-02 09:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Icon_FAQ' is clicked on
+
+2018-04-02 09:07:27 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'FAQ - Route Report'
+
+2018-04-02 09:07:28 - [MESSAGE][PASSED] - Switched to window with title: 'FAQ - Route Report'
+
+2018-04-02 09:07:28 - [TEST_STEP][PASSED] - Statement - titleWindowFAQ_1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'FAQ - Route Report'
+
+2018-04-02 09:07:28 - [MESSAGE][PASSED] - Current window's title is: 'FAQ - Route Report'
+
+2018-04-02 09:07:28 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'FAQ - Route Report' and expected text 'FAQ - Route Report' are matched 
+
+2018-04-02 09:07:28 - [MESSAGE][PASSED] - Actual text 'FAQ - Route Report' and expected text 'FAQ - Route Report' are matched 
+
+2018-04-02 09:07:28 - [TEST_STEP][PASSED] - closeWindowTitle: Window with title: 'FAQ - Route Report' is closed
+
+2018-04-02 09:07:28 - [MESSAGE][PASSED] - Window with title: 'FAQ - Route Report' is closed
+
+2018-04-02 09:07:28 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'Route Report - Earn money while traveling'
+
+2018-04-02 09:07:28 - [MESSAGE][PASSED] - Switched to window with title: 'Route Report - Earn money while traveling'
+
+2018-04-02 09:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/About US/Button_Get_paid' is clicked on
+
+2018-04-02 09:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/About US/Button_Get_paid' is clicked on
+
+2018-04-02 09:07:28 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'FAQ - Route Report'
+
+2018-04-02 09:07:29 - [MESSAGE][PASSED] - Switched to window with title: 'FAQ - Route Report'
+
+2018-04-02 09:07:29 - [TEST_STEP][PASSED] - Statement - titleWindowFAQ_2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'FAQ - Route Report'
+
+2018-04-02 09:07:29 - [MESSAGE][PASSED] - Current window's title is: 'FAQ - Route Report'
+
+2018-04-02 09:07:29 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'FAQ - Route Report' and expected text 'FAQ - Route Report' are matched 
+
+2018-04-02 09:07:29 - [MESSAGE][PASSED] - Actual text 'FAQ - Route Report' and expected text 'FAQ - Route Report' are matched 
+
+2018-04-02 09:07:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-02 09:07:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (Author-page) - without logging" classname="Test Cases/Clicks_with_out_login/Clicks (Author-page) - without logging" status="PASSED">
+         <system-out><![CDATA[2018-04-02 09:07:30 - [TEST_CASE][PASSED] - Test Cases/Clicks_with_out_login/Clicks (Author-page) - without logging: Test Cases/Clicks_with_out_login/Clicks (Author-page) - without logging
+
+2018-04-02 09:07:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:07:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:07:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:07:36 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:07:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:07:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button__Authors' is clicked on
+
+2018-04-02 09:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button__Authors' is clicked on
+
+2018-04-02 09:07:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_block_TOP AUTHORS' is present
+
+2018-04-02 09:07:39 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_block_TOP AUTHORS' is present
+
+2018-04-02 09:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/link_Ana Maria Diez Venezuela01' is clicked on
+
+2018-04-02 09:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/link_Ana Maria Diez Venezuela01' is clicked on
+
+2018-04-02 09:07:40 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-04-02 09:07:40 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-04-02 09:07:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Authors_page' is present
+
+2018-04-02 09:07:47 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Authors_page' is present
+
+2018-04-02 09:07:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/Button_follow' is clicked on
+
+2018-04-02 09:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/Button_follow' is clicked on
+
+2018-04-02 09:07:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:07:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/Button_cart' is clicked on
+
+2018-04-02 09:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/Button_cart' is clicked on
+
+2018-04-02 09:07:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:07:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:07:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/Button_favorite' is clicked on
+
+2018-04-02 09:07:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/Button_favorite' is clicked on
+
+2018-04-02 09:07:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:07:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:07:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/button_compare' is clicked on
+
+2018-04-02 09:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/button_compare' is clicked on
+
+2018-04-02 09:07:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:07:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:07:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:07:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/button_posts' is clicked on
+
+2018-04-02 09:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/button_posts' is clicked on
+
+2018-04-02 09:07:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:07:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:07:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/button_reports' is clicked on
+
+2018-04-02 09:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/button_reports' is clicked on
+
+2018-04-02 09:07:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:07:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:07:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/button_detail_report_inf' is clicked on
+
+2018-04-02 09:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/button_detail_report_inf' is clicked on
+
+2018-04-02 09:07:55 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '2'
+
+2018-04-02 09:07:55 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2018-04-02 09:07:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Authors_and_Author_page/ver_detail_page_loaded' is present
+
+2018-04-02 09:07:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-02 09:07:58 - [MESSAGE][PASSED] - Object 'Object Repository/Authors_and_Author_page/ver_detail_page_loaded' is present
+
+2018-04-02 09:07:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-02 09:07:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (Authors) - without logging" classname="Test Cases/Clicks_with_out_login/Clicks (Authors) - without logging" status="PASSED">
+         <system-out><![CDATA[2018-04-02 09:07:59 - [TEST_CASE][PASSED] - Test Cases/Clicks_with_out_login/Clicks (Authors) - without logging: Test Cases/Clicks_with_out_login/Clicks (Authors) - without logging
+
+2018-04-02 09:07:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:08:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:08:02 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:08:05 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:08:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:08:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:08:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/a_Authors' is clicked on
+
+2018-04-02 09:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/a_Authors' is clicked on
+
+2018-04-02 09:08:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/price_button_authors' is present
+
+2018-04-02 09:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/price_button_authors' is present
+
+2018-04-02 09:08:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/price_button_authors' is clicked on
+
+2018-04-02 09:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/price_button_authors' is clicked on
+
+2018-04-02 09:08:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:08:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:08:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Button_add_to_favorite_Search_page' is clicked on
+
+2018-04-02 09:08:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Button_add_to_favorite_Search_page' is clicked on
+
+2018-04-02 09:08:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:08:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:08:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Button_Compare_report_row_Search_page' is clicked on
+
+2018-04-02 09:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Button_Compare_report_row_Search_page' is clicked on
+
+2018-04-02 09:08:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:17 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:08:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:08:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Button_Follow author_Authors_page ' is clicked on
+
+2018-04-02 09:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Button_Follow author_Authors_page ' is clicked on
+
+2018-04-02 09:08:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:08:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:08:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Button_Like_Authors' is clicked on
+
+2018-04-02 09:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Button_Like_Authors' is clicked on
+
+2018-04-02 09:08:20 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:08:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:08:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Button_Add_comment_Authors' is clicked on
+
+2018-04-02 09:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Button_Add_comment_Authors' is clicked on
+
+2018-04-02 09:08:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:08:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:08:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:08:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-02 09:08:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (Detail_report_page)" classname="Test Cases/Clicks_with_out_login/Clicks (Detail_report_page)" status="PASSED">
+         <system-out><![CDATA[2018-04-02 09:08:24 - [TEST_CASE][PASSED] - Test Cases/Clicks_with_out_login/Clicks (Detail_report_page): Test Cases/Clicks_with_out_login/Clicks (Detail_report_page)
+
+2018-04-02 09:08:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:08:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:08:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:08:30 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:08:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:08:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:08:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button__Authors' is clicked on
+
+2018-04-02 09:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button__Authors' is clicked on
+
+2018-04-02 09:08:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_block_TOP AUTHORS' is present
+
+2018-04-02 09:08:34 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_block_TOP AUTHORS' is present
+
+2018-04-02 09:08:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 09:08:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 09:08:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/link_Ana Maria Diez Venezuela01' is clicked on
+
+2018-04-02 09:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/link_Ana Maria Diez Venezuela01' is clicked on
+
+2018-04-02 09:08:40 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-04-02 09:08:40 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-04-02 09:08:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Authors_page' is present
+
+2018-04-02 09:08:42 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Authors_page' is present
+
+2018-04-02 09:08:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Authors_and_Author_page/button_detail_report_inf' is clicked on
+
+2018-04-02 09:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Authors_and_Author_page/button_detail_report_inf' is clicked on
+
+2018-04-02 09:08:42 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '2'
+
+2018-04-02 09:08:42 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2018-04-02 09:08:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Authors_and_Author_page/ver_detail_page_loaded' is present
+
+2018-04-02 09:08:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-02 09:08:45 - [MESSAGE][PASSED] - Object 'Object Repository/Authors_and_Author_page/ver_detail_page_loaded' is present
+
+2018-04-02 09:08:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/Button_favorite' is clicked on
+
+2018-04-02 09:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/Button_favorite' is clicked on
+
+2018-04-02 09:08:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:08:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:08:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/button_compare' is clicked on
+
+2018-04-02 09:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/button_compare' is clicked on
+
+2018-04-02 09:08:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:08:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:08:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/Button_cart' is clicked on
+
+2018-04-02 09:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/Button_cart' is clicked on
+
+2018-04-02 09:08:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:08:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:08:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:08:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/Photos_link' is clicked on
+
+2018-04-02 09:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/Photos_link' is clicked on
+
+2018-04-02 09:08:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Detail_report_page/ver_photo' is present
+
+2018-04-02 09:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/Detail_report_page/ver_photo' is present
+
+2018-04-02 09:08:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 09:08:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 09:08:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/Button_close_images' is clicked on
+
+2018-04-02 09:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/Button_close_images' is clicked on
+
+2018-04-02 09:08:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/Button_more' is clicked on
+
+2018-04-02 09:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/Button_more' is clicked on
+
+2018-04-02 09:08:52 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '3'
+
+2018-04-02 09:08:52 - [MESSAGE][PASSED] - Switched to window with index: '3'
+
+2018-04-02 09:08:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Detail_report_page/ver_view_report' is present
+
+2018-04-02 09:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/Detail_report_page/ver_view_report' is present
+
+2018-04-02 09:08:54 - [TEST_STEP][PASSED] - closeWindowIndex: Window with index 3 is closed
+
+2018-04-02 09:08:54 - [MESSAGE][PASSED] - Window with index 3 is closed
+
+2018-04-02 09:08:54 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '2'
+
+2018-04-02 09:08:54 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2018-04-02 09:08:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Detail_report_page/Avatar_photo_link' is clicked on
+
+2018-04-02 09:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Detail_report_page/Avatar_photo_link' is clicked on
+
+2018-04-02 09:08:55 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '3'
+
+2018-04-02 09:08:55 - [MESSAGE][PASSED] - Switched to window with index: '3'
+
+2018-04-02 09:08:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Detail_report_page/ver_Authors_page_loaded' is present
+
+2018-04-02 09:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/Detail_report_page/ver_Authors_page_loaded' is present
+
+2018-04-02 09:08:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-02 09:08:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (FAQ)" classname="Test Cases/Clicks_with_out_login/Clicks (FAQ)" status="PASSED">
+         <system-out><![CDATA[2018-04-02 09:08:58 - [TEST_CASE][PASSED] - Test Cases/Clicks_with_out_login/Clicks (FAQ): Test Cases/Clicks_with_out_login/Clicks (FAQ)
+
+2018-04-02 09:08:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:09:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:09:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:09:04 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:09:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:09:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:09:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_FAQ' is clicked on
+
+2018-04-02 09:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_FAQ' is clicked on
+
+2018-04-02 09:09:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_FAQ' is present
+
+2018-04-02 09:09:06 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_FAQ' is present
+
+2018-04-02 09:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FAQ/div_BUYING REPORT' is clicked on
+
+2018-04-02 09:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FAQ/div_BUYING REPORT' is clicked on
+
+2018-04-02 09:09:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FAQ/div_SELLING A REPORT' is clicked on
+
+2018-04-02 09:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FAQ/div_SELLING A REPORT' is clicked on
+
+2018-04-02 09:09:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_FAQ/div_CREATING A REPORT' is clicked on
+
+2018-04-02 09:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_FAQ/div_CREATING A REPORT' is clicked on
+
+2018-04-02 09:09:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 09:09:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 09:09:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-02 09:09:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (Header_Footer)" classname="Test Cases/Clicks_with_out_login/Clicks (Header_Footer)" status="PASSED">
+         <system-out><![CDATA[2018-04-02 09:09:10 - [TEST_CASE][PASSED] - Test Cases/Clicks_with_out_login/Clicks (Header_Footer): Test Cases/Clicks_with_out_login/Clicks (Header_Footer)
+
+2018-04-02 09:09:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:09:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:09:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:09:15 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:09:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:09:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:09:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_Create a report' is clicked on
+
+2018-04-02 09:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_Create a report' is clicked on
+
+2018-04-02 09:09:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Pop_up_select_kind_of_travel' is not present after 2 second(s)
+
+2018-04-02 09:09:23 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Pop_up_select_kind_of_travel' is not present after 2 second(s)
+
+2018-04-02 09:09:23 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-04-02 09:09:23 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-04-02 09:09:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_Create a report' is clicked on
+
+2018-04-02 09:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_Create a report' is clicked on
+
+2018-04-02 09:09:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Pop_up_select_kind_of_travel' is not present after 2 second(s)
+
+2018-04-02 09:09:27 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Pop_up_select_kind_of_travel' is not present after 2 second(s)
+
+2018-04-02 09:09:27 - [TEST_STEP][PASSED] - back: Navigate back successfully
+
+2018-04-02 09:09:27 - [MESSAGE][PASSED] - Navigate back successfully
+
+2018-04-02 09:09:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_About us' is clicked on
+
+2018-04-02 09:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_About us' is clicked on
+
+2018-04-02 09:09:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_JOIN US NOW' is present
+
+2018-04-02 09:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_JOIN US NOW' is present
+
+2018-04-02 09:09:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_Search report' is clicked on
+
+2018-04-02 09:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_Search report' is clicked on
+
+2018-04-02 09:09:30 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Search block' is not present after 2 second(s)
+
+2018-04-02 09:09:33 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Search block' is not present after 2 second(s)
+
+2018-04-02 09:09:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button__Authors' is clicked on
+
+2018-04-02 09:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button__Authors' is clicked on
+
+2018-04-02 09:09:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_block_TOP AUTHORS' is present
+
+2018-04-02 09:09:41 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_block_TOP AUTHORS' is present
+
+2018-04-02 09:09:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_User Manual' is clicked on
+
+2018-04-02 09:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_User Manual' is clicked on
+
+2018-04-02 09:09:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Users Manual' is present
+
+2018-04-02 09:09:42 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Users Manual' is present
+
+2018-04-02 09:09:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_FAQ' is clicked on
+
+2018-04-02 09:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_FAQ' is clicked on
+
+2018-04-02 09:09:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_FAQ' is present
+
+2018-04-02 09:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_FAQ' is present
+
+2018-04-02 09:09:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_Contact us' is clicked on
+
+2018-04-02 09:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_Contact us' is clicked on
+
+2018-04-02 09:09:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Contact form' is present
+
+2018-04-02 09:09:44 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Contact form' is present
+
+2018-04-02 09:09:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_NewsOffers' is clicked on
+
+2018-04-02 09:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_NewsOffers' is clicked on
+
+2018-04-02 09:09:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_news' is present
+
+2018-04-02 09:09:46 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_news' is present
+
+2018-04-02 09:09:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_About us' is clicked on
+
+2018-04-02 09:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_About us' is clicked on
+
+2018-04-02 09:09:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_JOIN US NOW' is present
+
+2018-04-02 09:09:46 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_JOIN US NOW' is present
+
+2018-04-02 09:09:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_Search report' is clicked on
+
+2018-04-02 09:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_Search report' is clicked on
+
+2018-04-02 09:09:47 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Search block' is not present after 2 second(s)
+
+2018-04-02 09:09:49 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Search block' is not present after 2 second(s)
+
+2018-04-02 09:09:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_Authors' is clicked on
+
+2018-04-02 09:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_Authors' is clicked on
+
+2018-04-02 09:09:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_block_TOP AUTHORS' is present
+
+2018-04-02 09:09:59 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_block_TOP AUTHORS' is present
+
+2018-04-02 09:09:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_User Manual' is clicked on
+
+2018-04-02 09:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_User Manual' is clicked on
+
+2018-04-02 09:10:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Users Manual' is present
+
+2018-04-02 09:10:00 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Users Manual' is present
+
+2018-04-02 09:10:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_FAQ' is clicked on
+
+2018-04-02 09:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_FAQ' is clicked on
+
+2018-04-02 09:10:01 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_FAQ' is present
+
+2018-04-02 09:10:01 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_FAQ' is present
+
+2018-04-02 09:10:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_Contact us' is clicked on
+
+2018-04-02 09:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_Contact us' is clicked on
+
+2018-04-02 09:10:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Contact form' is present
+
+2018-04-02 09:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Contact form' is present
+
+2018-04-02 09:10:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_NewsOffers' is clicked on
+
+2018-04-02 09:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_NewsOffers' is clicked on
+
+2018-04-02 09:10:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_news' is present
+
+2018-04-02 09:10:04 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_news' is present
+
+2018-04-02 09:10:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-02 09:10:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (Manual)" classname="Test Cases/Clicks_with_out_login/Clicks (Manual)" status="PASSED">
+         <system-out><![CDATA[2018-04-02 09:10:04 - [TEST_CASE][PASSED] - Test Cases/Clicks_with_out_login/Clicks (Manual): Test Cases/Clicks_with_out_login/Clicks (Manual)
+
+2018-04-02 09:10:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:10:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:10:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:10:10 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:10:10 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:10:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:10:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_User Manual' is clicked on
+
+2018-04-02 09:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Footer buttons/Footer_Button_User Manual' is clicked on
+
+2018-04-02 09:10:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Users Manual' is present
+
+2018-04-02 09:10:12 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_Users Manual' is present
+
+2018-04-02 09:10:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Manual/nav_button_Trip vocabulary_manual' is clicked on
+
+2018-04-02 09:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Manual/nav_button_Trip vocabulary_manual' is clicked on
+
+2018-04-02 09:10:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Header-Footer/Manual/nav_button_Types of trips_manual' is visible
+
+2018-04-02 09:10:13 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Manual/nav_button_Types of trips_manual' is visible
+
+2018-04-02 09:10:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-02 09:10:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (News) - without logging" classname="Test Cases/Clicks_with_out_login/Clicks (News) - without logging" status="PASSED">
+         <system-out><![CDATA[2018-04-02 09:10:13 - [TEST_CASE][PASSED] - Test Cases/Clicks_with_out_login/Clicks (News) - without logging: Test Cases/Clicks_with_out_login/Clicks (News) - without logging
+
+2018-04-02 09:10:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:10:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:10:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:10:19 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:10:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:10:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:10:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_NewsOffers' is clicked on
+
+2018-04-02 09:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header buttons/Header_Button_NewsOffers' is clicked on
+
+2018-04-02 09:10:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Header-Footer/Ver_Buttons/ver_news' is present
+
+2018-04-02 09:10:22 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Ver_Buttons/ver_news' is present
+
+2018-04-02 09:10:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Icon-likes news' is clicked on
+
+2018-04-02 09:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Icon-likes news' is clicked on
+
+2018-04-02 09:10:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 09:10:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 09:10:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Icon-comments news' is clicked on
+
+2018-04-02 09:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Icon-comments news' is clicked on
+
+2018-04-02 09:10:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 09:10:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 09:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/News_How to travel with passive' is clicked on
+
+2018-04-02 09:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/News_How to travel with passive' is clicked on
+
+2018-04-02 09:10:27 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-04-02 09:10:27 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-04-02 09:10:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_NewsOffers/ver_new is loaded' is present
+
+2018-04-02 09:10:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_NewsOffers/ver_new is loaded' is present
+
+2018-04-02 09:10:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Icon likes vi news inside top' is clicked on
+
+2018-04-02 09:10:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Icon likes vi news inside top' is clicked on
+
+2018-04-02 09:10:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 09:10:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 09:10:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Icon-comments news inside' is clicked on
+
+2018-04-02 09:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Icon-comments news inside' is clicked on
+
+2018-04-02 09:10:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 09:10:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 09:10:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Icon likes vi news inside bottom ' is clicked on
+
+2018-04-02 09:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Icon likes vi news inside bottom ' is clicked on
+
+2018-04-02 09:10:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_NewsOffers/ver-pop up login' is present
+
+2018-04-02 09:10:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-02 09:10:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-02 09:10:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NewsOffers/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:36 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-02 09:10:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (Seach) - without logging" classname="Test Cases/Clicks_with_out_login/Clicks (Seach) - without logging" status="PASSED">
+         <system-out><![CDATA[2018-04-02 09:10:37 - [TEST_CASE][PASSED] - Test Cases/Clicks_with_out_login/Clicks (Seach) - without logging: Test Cases/Clicks_with_out_login/Clicks (Seach) - without logging
+
+2018-04-02 09:10:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:10:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:10:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:10:42 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:10:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:10:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:10:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/a_Search report' is clicked on
+
+2018-04-02 09:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/a_Search report' is clicked on
+
+2018-04-02 09:10:46 - [TEST_STEP][PASSED] - setText: Text 'Chacagua' is set on object 'Object Repository/Search_Authors/input_search'
+
+2018-04-02 09:10:46 - [MESSAGE][PASSED] - Text 'Chacagua' is set on object 'Object Repository/Search_Authors/input_search'
+
+2018-04-02 09:10:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-02 09:10:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-02 09:10:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/price_button_search' is clicked on
+
+2018-04-02 09:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/price_button_search' is clicked on
+
+2018-04-02 09:10:51 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:52 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:10:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:10:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Button_Follow author_Search_page' is clicked on
+
+2018-04-02 09:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Button_Follow author_Search_page' is clicked on
+
+2018-04-02 09:10:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:10:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:10:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Button_add_to_favorite_Search_page' is clicked on
+
+2018-04-02 09:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Button_add_to_favorite_Search_page' is clicked on
+
+2018-04-02 09:10:54 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:10:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:10:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Button_Compare_report_row_Search_page' is clicked on
+
+2018-04-02 09:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Button_Compare_report_row_Search_page' is clicked on
+
+2018-04-02 09:10:56 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:10:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:10:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Close_button_registration_pop-up' is clicked on
+
+2018-04-02 09:10:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/Button_Cart_top_section_Search' is clicked on
+
+2018-04-02 09:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/Button_Cart_top_section_Search' is clicked on
+
+2018-04-02 09:10:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/Search_Authors/button_SIGN UP' is present
+
+2018-04-02 09:10:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-02 09:10:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-02 09:10:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-02 09:11:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Clicks_with_out_login/Clicks (View report) - without logging" classname="Test Cases/Clicks_with_out_login/Clicks (View report) - without logging" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/View_report/Report_row_link_to_details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/View_report/Report_row_link_to_details' located by 'By.xpath: (.//span[@class='visited_country'])[1]' not found)"/>
+         <system-out><![CDATA[2018-04-02 09:11:00 - [TEST_CASE][FAILED] - Test Cases/Clicks_with_out_login/Clicks (View report) - without logging: Test Cases/Clicks_with_out_login/Clicks (View report) - without logging FAILED because (of) Unable to click on object 'Object Repository/View_report/Report_row_link_to_details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/View_report/Report_row_link_to_details' located by 'By.xpath: (.//span[@class='visited_country'])[1]' not found)
+
+2018-04-02 09:11:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-02 09:11:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-02 09:11:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:11:05 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-02 09:11:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-02 09:11:06 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-02 09:11:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search_Authors/a_Search report' is clicked on
+
+2018-04-02 09:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Search_Authors/a_Search report' is clicked on
+
+2018-04-02 09:11:09 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/View_report/Report_row_link_to_details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/View_report/Report_row_link_to_details' located by 'By.xpath: (.//span[@class='visited_country'])[1]' not found)
+
+2018-04-02 09:11:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/View_report/Report_row_link_to_details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/View_report/Report_row_link_to_details' located by 'By.xpath: (.//span[@class='visited_country'])[1]' not found)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Clicks_without_logging\\20180402_090634\\1522649501722.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-02 09:11:00 - [TEST_CASE][FAILED] - Test Cases/Clicks_with_out_login/Clicks (View report) - without logging: Test Cases/Clicks_with_out_login/Clicks (View report) - without logging FAILED because (of) Unable to click on object 'Object Repository/View_report/Report_row_link_to_details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/View_report/Report_row_link_to_details' located by 'By.xpath: (.//span[@class='visited_country'])[1]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-02 09:06:45 - [TEST_SUITE][FAILED] - Clicks_without_logging: Test Cases/Clicks_with_out_login/Clicks (View report) - without logging FAILED because (of) Unable to click on object 'Object Repository/View_report/Report_row_link_to_details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/View_report/Report_row_link_to_details' located by 'By.xpath: (.//span[@class='visited_country'])[1]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-02 09:06:45 - [TEST_SUITE][FAILED] - Clicks_without_logging: Test Cases/Clicks_with_out_login/Clicks (View report) - without logging FAILED because (of) Unable to click on object 'Object Repository/View_report/Report_row_link_to_details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/View_report/Report_row_link_to_details' located by 'By.xpath: (.//span[@class='visited_country'])[1]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

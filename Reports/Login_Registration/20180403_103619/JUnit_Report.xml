@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Registration" time="124" tests="6" failures="7" errors="0">
+   <testsuite name="Login_Registration" tests="6" failures="7" errors="0" time="124" timestamp="2018-04-03 10:48:33" hostname="user - BrainPc" id="Test Suites/Login_Registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741722579.png, C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741731443.png, C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741749052.png, C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741767772.png, C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741776027.png, C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741800177.png, C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741836428.png"/>
+         <property name="hostName" value="user - BrainPc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.137.2"/>
+         <property name="sessionId" value="9224030fd5731a0aac52ca15702b9c71"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with a valid email and password" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with a valid email and password" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;button&quot; id=&quot;open_go_login&quot; style=&quot;width: 100%;&quot;>...&lt;/button> is not clickable at point (837, 450). Other element would receive the click: &lt;div class=&quot;srm_loading&quot;>...&lt;/div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e1f3dc7d9f44a82c0267ccae6cc0b325)"/>
+         <system-out><![CDATA[2018-04-03 10:48:33 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with a valid email and password: Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with a valid email and password FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e1f3dc7d9f44a82c0267ccae6cc0b325)
+
+2018-04-03 10:48:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:48:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:48:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:48:40 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:48:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:48:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:48:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:48:41 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:48:42 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:48:42 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 10:48:42 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 10:48:42 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e1f3dc7d9f44a82c0267ccae6cc0b325)
+
+2018-04-03 10:48:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e1f3dc7d9f44a82c0267ccae6cc0b325)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741722579.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-03 10:48:33 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with a valid email and password: Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with a valid email and password FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e1f3dc7d9f44a82c0267ccae6cc0b325)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Log in with incorrect invalid email or password" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Log in with incorrect invalid email or password" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;button&quot; id=&quot;open_go_login&quot; style=&quot;width: 100%;&quot;>...&lt;/button> is not clickable at point (837, 450). Other element would receive the click: &lt;div class=&quot;srm_loading&quot;>...&lt;/div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 55822f7f33f3355fc880b04db3b41ae8)"/>
+         <system-out><![CDATA[2018-04-03 10:48:43 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Log in with incorrect invalid email or password: Test Cases/Login_Registration_Test_Cases/Login_Reg-Log in with incorrect invalid email or password FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 55822f7f33f3355fc880b04db3b41ae8)
+
+2018-04-03 10:48:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:48:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-03 10:48:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:48:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:48:49 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:48:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:48:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:48:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:48:50 - [TEST_STEP][PASSED] - setText: Text 'wrongmail@mail.mail' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:48:51 - [MESSAGE][PASSED] - Text 'wrongmail@mail.mail' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:48:51 - [TEST_STEP][PASSED] - setText: Text '1111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 10:48:51 - [MESSAGE][PASSED] - Text '1111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 10:48:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 55822f7f33f3355fc880b04db3b41ae8)
+
+2018-04-03 10:48:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 55822f7f33f3355fc880b04db3b41ae8)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741731443.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-03 10:48:43 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Log in with incorrect invalid email or password: Test Cases/Login_Registration_Test_Cases/Login_Reg-Log in with incorrect invalid email or password FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 55822f7f33f3355fc880b04db3b41ae8)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering non-valid mail in the mail input field" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering non-valid mail in the mail input field" status="PASSED">
+         <system-out><![CDATA[2018-04-03 10:48:52 - [TEST_CASE][PASSED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering non-valid mail in the mail input field: Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering non-valid mail in the mail input field
+
+2018-04-03 10:48:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:48:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-03 10:48:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:48:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:48:57 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:48:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:48:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:48:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/a_JOIN US NOW' is clicked on
+
+2018-04-03 10:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/a_JOIN US NOW' is clicked on
+
+2018-04-03 10:48:58 - [TEST_STEP][PASSED] - setText: Text 'sgfsjhdgf' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:48:59 - [MESSAGE][PASSED] - Text 'sgfsjhdgf' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:48:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Error_message_Please enter a valid email' is present
+
+2018-04-03 10:49:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Error_message_Please enter a valid email' is present
+
+2018-04-03 10:49:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 10:49:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with input only mail (no password)" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with input only mail (no password)" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;button&quot; id=&quot;open_go_login&quot; style=&quot;width: 100%;&quot;>...&lt;/button> is not clickable at point (837, 450). Other element would receive the click: &lt;div class=&quot;srm_loading&quot;>...&lt;/div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 3dceebf15db947dddb82b20be1a83380)"/>
+         <system-out><![CDATA[2018-04-03 10:49:01 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with input only mail (no password): Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with input only mail (no password) FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 3dceebf15db947dddb82b20be1a83380)
+
+2018-04-03 10:49:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:49:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:49:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:07 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:49:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:49:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:08 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:49:08 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:49:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 3dceebf15db947dddb82b20be1a83380)
+
+2018-04-03 10:49:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 3dceebf15db947dddb82b20be1a83380)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741749052.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-03 10:49:01 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with input only mail (no password): Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with input only mail (no password) FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 3dceebf15db947dddb82b20be1a83380)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with password only (no mail)" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with password only (no mail)" status="PASSED">
+         <system-out><![CDATA[2018-04-03 10:49:09 - [TEST_CASE][PASSED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with password only (no mail): Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with password only (no mail)
+
+2018-04-03 10:49:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:49:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-03 10:49:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:49:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:15 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:49:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:49:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:16 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 10:49:17 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/input_in_password'
+
+2018-04-03 10:49:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-03 10:49:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-03 10:49:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 10:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/button_LOG IN' is clicked on
+
+2018-04-03 10:49:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Error_message_Required field' is present
+
+2018-04-03 10:49:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Error_message_Required field' is present
+
+2018-04-03 10:49:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 10:49:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Recovering the password with the wrong key" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Recovering the password with the wrong key" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;form_a&quot; id=&quot;form_forget_password&quot; style=&quot;margin-top: 5px;&quot;>...&lt;/div> is not clickable at point (837, 484). Other element would receive the click: &lt;div class=&quot;srm_loading&quot;>...&lt;/div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 6d78d24d8ac21f6d8401ab46f36f6fdb)"/>
+         <system-out><![CDATA[2018-04-03 10:49:20 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Recovering the password with the wrong key: Test Cases/Login_Registration_Test_Cases/Login_Reg-Recovering the password with the wrong key FAILED because (of) Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 484). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 6d78d24d8ac21f6d8401ab46f36f6fdb)
+
+2018-04-03 10:49:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:49:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:49:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:25 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:49:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:49:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:26 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:49:27 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:49:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 484). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 6d78d24d8ac21f6d8401ab46f36f6fdb)
+
+2018-04-03 10:49:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 484). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 6d78d24d8ac21f6d8401ab46f36f6fdb)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741767772.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-03 10:49:20 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Recovering the password with the wrong key: Test Cases/Login_Registration_Test_Cases/Login_Reg-Recovering the password with the wrong key FAILED because (of) Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 484). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 6d78d24d8ac21f6d8401ab46f36f6fdb)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Password recovery with no key input" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Password recovery with no key input" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;form_a&quot; id=&quot;form_forget_password&quot; style=&quot;margin-top: 5px;&quot;>...&lt;/div> is not clickable at point (837, 484). Other element would receive the click: &lt;div class=&quot;srm_loading&quot;>...&lt;/div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 69db677f323e18884cc4e91b033d2b11)"/>
+         <system-out><![CDATA[2018-04-03 10:49:28 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Password recovery with no key input: Test Cases/Login_Registration_Test_Cases/Login_Reg-Password recovery with no key input FAILED because (of) Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 484). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 69db677f323e18884cc4e91b033d2b11)
+
+2018-04-03 10:49:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:49:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-03 10:49:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:49:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:33 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:49:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:49:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:35 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:49:35 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:49:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 484). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 69db677f323e18884cc4e91b033d2b11)
+
+2018-04-03 10:49:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 484). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 69db677f323e18884cc4e91b033d2b11)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741776027.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-03 10:49:28 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Password recovery with no key input: Test Cases/Login_Registration_Test_Cases/Login_Reg-Password recovery with no key input FAILED because (of) Unable to click on object 'Object Repository/Login_registration/div_Forgot password (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 484). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 69db677f323e18884cc4e91b033d2b11)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_reg- Password recovery with different new passwords" classname="Test Cases/Login_Registration_Test_Cases/Login_reg- Password recovery with different new passwords" status="PASSED">
+         <system-out><![CDATA[2018-04-03 10:49:36 - [TEST_CASE][PASSED] - Test Cases/Login_Registration_Test_Cases/Login_reg- Password recovery with different new passwords: Test Cases/Login_Registration_Test_Cases/Login_reg- Password recovery with different new passwords
+
+2018-04-03 10:49:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:49:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-03 10:49:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:49:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:42 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:49:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:49:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:43 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:49:44 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/input_in_login'
+
+2018-04-03 10:49:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 10:49:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 10:49:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/div_Forgot password' is clicked on
+
+2018-04-03 10:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/div_Forgot password' is clicked on
+
+2018-04-03 10:49:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-03 10:49:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-03 10:49:46 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/input_in_key_password_recover'
+
+2018-04-03 10:49:46 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/input_in_key_password_recover'
+
+2018-04-03 10:49:46 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/input_in_password_new'
+
+2018-04-03 10:49:46 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/input_in_password_new'
+
+2018-04-03 10:49:46 - [TEST_STEP][PASSED] - setText: Text '1111111' is set on object 'Object Repository/Login_registration/input_in_password_confirm'
+
+2018-04-03 10:49:46 - [MESSAGE][PASSED] - Text '1111111' is set on object 'Object Repository/Login_registration/input_in_password_confirm'
+
+2018-04-03 10:49:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/button_LOG IN_recover_password' is clicked on
+
+2018-04-03 10:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/button_LOG IN_recover_password' is clicked on
+
+2018-04-03 10:49:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login_registration/Error_message_Key entered incorrectly' is not present after 5 second(s)
+
+2018-04-03 10:49:52 - [MESSAGE][WARNING] - Object 'Object Repository/Login_registration/Error_message_Key entered incorrectly' is not present after 5 second(s)
+
+2018-04-03 10:49:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 10:49:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration using valid Nick and Mail" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration using valid Nick and Mail" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;button&quot; id=&quot;open_register&quot;>...&lt;/button> is not clickable at point (1072, 570). Other element would receive the click: &lt;div class=&quot;srm_loading&quot;>...&lt;/div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 07ad1ef12019af90652f37a362462a3d)"/>
+         <system-out><![CDATA[2018-04-03 10:49:53 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration using valid Nick and Mail: Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration using valid Nick and Mail FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_register">...</button> is not clickable at point (1072, 570). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 07ad1ef12019af90652f37a362462a3d)
+
+2018-04-03 10:49:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:49:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:49:55 - [TEST_STEP][PASSED] - Statement - mydate = new java.util.Date(): null
+
+2018-04-03 10:49:55 - [TEST_STEP][PASSED] - Statement - formattedDate = mydate.format("MMdd"): null
+
+2018-04-03 10:49:55 - [TEST_STEP][PASSED] - Statement - dateHour = mydate.format("HHmmss"): null
+
+2018-04-03 10:49:55 - [TEST_STEP][PASSED] - Statement - x = "date" + formattedDate + "time" + dateHour: null
+
+2018-04-03 10:49:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:57 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:49:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:49:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:49:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:49:59 - [TEST_STEP][PASSED] - setText: Text 'date0403time104955' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-04-03 10:49:59 - [MESSAGE][PASSED] - Text 'date0403time104955' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-04-03 10:49:59 - [TEST_STEP][PASSED] - setText: Text 'date0403time104955@test.com' is set on object 'Object Repository/Login_registration/input_in_email_registration_field'
+
+2018-04-03 10:50:00 - [MESSAGE][PASSED] - Text 'date0403time104955@test.com' is set on object 'Object Repository/Login_registration/input_in_email_registration_field'
+
+2018-04-03 10:50:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_register">...</button> is not clickable at point (1072, 570). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 07ad1ef12019af90652f37a362462a3d)
+
+2018-04-03 10:50:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_register">...</button> is not clickable at point (1072, 570). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 07ad1ef12019af90652f37a362462a3d)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741800177.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-03 10:49:53 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration using valid Nick and Mail: Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration using valid Nick and Mail FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_register">...</button> is not clickable at point (1072, 570). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 07ad1ef12019af90652f37a362462a3d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering a non-valid nickname" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering a non-valid nickname" status="PASSED">
+         <system-out><![CDATA[2018-04-03 10:50:00 - [TEST_CASE][PASSED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering a non-valid nickname: Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering a non-valid nickname
+
+2018-04-03 10:50:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:50:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-03 10:50:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:50:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:50:06 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:50:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:50:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:50:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:50:07 - [TEST_STEP][PASSED] - setText: Text 'kajsghfja@^&%#$роывпа' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-04-03 10:50:08 - [MESSAGE][PASSED] - Text 'kajsghfja@^&%#$роывпа' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-04-03 10:50:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login_registration/Error_message_non_valid_nick_or_mail' is present
+
+2018-04-03 10:50:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-03 10:50:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Error_message_non_valid_nick_or_mail' is present
+
+2018-04-03 10:50:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 10:50:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering non-valid mail" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering non-valid mail" status="PASSED">
+         <system-out><![CDATA[2018-04-03 10:50:10 - [TEST_CASE][PASSED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering non-valid mail: Test Cases/Login_Registration_Test_Cases/Login_Reg-Entering non-valid mail
+
+2018-04-03 10:50:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:50:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:50:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:50:15 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:50:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:50:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:50:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:50:16 - [TEST_STEP][PASSED] - setText: Text 'nickname' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-04-03 10:50:17 - [MESSAGE][PASSED] - Text 'nickname' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-04-03 10:50:17 - [TEST_STEP][PASSED] - setText: Text 'kajsghfja@^&%#$роывпа' is set on object 'Object Repository/Login_registration/input_in_email_registration_field'
+
+2018-04-03 10:50:17 - [MESSAGE][PASSED] - Text 'kajsghfja@^&%#$роывпа' is set on object 'Object Repository/Login_registration/input_in_email_registration_field'
+
+2018-04-03 10:50:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login_registration/Error_message_non_valid_nick_or_mail' is not present after 1 second(s)
+
+2018-04-03 10:50:18 - [MESSAGE][WARNING] - Object 'Object Repository/Login_registration/Error_message_non_valid_nick_or_mail' is not present after 1 second(s)
+
+2018-04-03 10:50:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 10:50:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Mail" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Mail" status="PASSED">
+         <system-out><![CDATA[2018-04-03 10:50:19 - [TEST_CASE][PASSED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Mail: Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Mail
+
+2018-04-03 10:50:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:50:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:50:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:50:24 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:50:24 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:50:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:50:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:50:25 - [TEST_STEP][PASSED] - setText: Text 'nickname' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-04-03 10:50:26 - [MESSAGE][PASSED] - Text 'nickname' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-04-03 10:50:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login_registration/Error_message_non_valid_nick_or_mail' is not present after 1 second(s)
+
+2018-04-03 10:50:27 - [MESSAGE][WARNING] - Object 'Object Repository/Login_registration/Error_message_non_valid_nick_or_mail' is not present after 1 second(s)
+
+2018-04-03 10:50:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-03 10:50:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Nickname" classname="Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Nickname" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;button&quot; id=&quot;open_register&quot;>...&lt;/button> is not clickable at point (1072, 570). Other element would receive the click: &lt;div class=&quot;srm_loading&quot;>...&lt;/div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 9224030fd5731a0aac52ca15702b9c71)"/>
+         <system-out><![CDATA[2018-04-03 10:50:28 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Nickname: Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Nickname FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_register">...</button> is not clickable at point (1072, 570). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 9224030fd5731a0aac52ca15702b9c71)
+
+2018-04-03 10:50:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-03 10:50:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-03 10:50:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:50:34 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-04-03 10:50:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-03 10:50:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-03 10:50:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-04-03 10:50:35 - [TEST_STEP][PASSED] - setText: Text 'mailwichdoesnotexist@mailwichdoesnotexist.com' is set on object 'Object Repository/Login_registration/input_in_email_registration_field'
+
+2018-04-03 10:50:36 - [MESSAGE][PASSED] - Text 'mailwichdoesnotexist@mailwichdoesnotexist.com' is set on object 'Object Repository/Login_registration/input_in_email_registration_field'
+
+2018-04-03 10:50:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_register">...</button> is not clickable at point (1072, 570). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 9224030fd5731a0aac52ca15702b9c71)
+
+2018-04-03 10:50:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_register">...</button> is not clickable at point (1072, 570). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 9224030fd5731a0aac52ca15702b9c71)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180403_103619\\1522741836428.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-03 10:50:28 - [TEST_CASE][FAILED] - Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Nickname: Test Cases/Login_Registration_Test_Cases/Login_Reg-Registration without Nickname FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_SIGN UP' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_register">...</button> is not clickable at point (1072, 570). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 9224030fd5731a0aac52ca15702b9c71)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-03 10:48:33 - [TEST_SUITE][FAILED] - Login_Registration: Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with a valid email and password FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e1f3dc7d9f44a82c0267ccae6cc0b325)]]></system-out>
+      <system-err><![CDATA[2018-04-03 10:48:33 - [TEST_SUITE][FAILED] - Login_Registration: Test Cases/Login_Registration_Test_Cases/Login_Reg-Login with a valid email and password FAILED because (of) Unable to click on object 'Object Repository/Login_registration/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '192.168.137.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: e1f3dc7d9f44a82c0267ccae6cc0b325)]]></system-err>
+   </testsuite>
+</testsuites>

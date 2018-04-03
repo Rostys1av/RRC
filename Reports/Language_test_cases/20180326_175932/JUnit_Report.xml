@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Language_test_cases" time="268" tests="6" failures="1" errors="0">
+   <testsuite name="Language_test_cases" tests="6" failures="1" errors="0" time="268" timestamp="2018-03-26 17:59:34" hostname="user - BrainPc" id="Test Suites/Language_test_cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Language_test_cases\\20180326_175932"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Language_test_cases\\20180326_175932\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Language_test_cases\\20180326_175932\\1522076383439.png, C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Language_test_cases\\20180326_175932\\1522076384010.png"/>
+         <property name="hostName" value="user - BrainPc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.1.2.105"/>
+         <property name="sessionId" value="b6a249d69777de9312c6cab4422ee67f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Language_test_cases/Language_Change_About_Us" classname="Test Cases/Language_test_cases/Language_Change_About_Us" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Header-Footer/Header_Button_About us' FAILED. (Root cause: Actual text 'ABOUT US' and expected text 'ÜBER UNS' of test object 'Object Repository/Header-Footer/Header_Button_About us' are NOT matched.)"/>
+         <system-out><![CDATA[2018-03-26 17:59:35 - [TEST_CASE][FAILED] - Test Cases/Language_test_cases/Language_Change_About_Us: Test Cases/Language_test_cases/Language_Change_About_Us FAILED because (of) Verify element text of test object 'Object Repository/Header-Footer/Header_Button_About us' FAILED. (Root cause: Actual text 'ABOUT US' and expected text 'ÜBER UNS' of test object 'Object Repository/Header-Footer/Header_Button_About us' are NOT matched.)
+
+2018-03-26 17:59:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 17:59:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 17:59:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 17:59:41 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 17:59:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-26 17:59:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-26 17:59:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header_Button_About us' is clicked on
+
+2018-03-26 17:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header_Button_About us' is clicked on
+
+2018-03-26 17:59:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/ver_JOIN US NOW' is present
+
+2018-03-26 17:59:43 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/ver_JOIN US NOW' is present
+
+2018-03-26 17:59:43 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Header-Footer/Header_Button_About us' FAILED. (Root cause: Actual text 'ABOUT US' and expected text 'ÜBER UNS' of test object 'Object Repository/Header-Footer/Header_Button_About us' are NOT matched.)
+
+2018-03-26 17:59:44 - [MESSAGE][FAILED] - Actual text 'ABOUT US' and expected text 'ÜBER UNS' of test object 'Object Repository/Header-Footer/Header_Button_About us' are NOT matched.
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Language_test_cases\\20180326_175932\\1522076383439.png]]
+
+2018-03-26 17:59:44 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Header-Footer/Header_Button_About us' FAILED. (Root cause: Actual text 'ABOUT US' and expected text 'ÜBER UNS' of test object 'Object Repository/Header-Footer/Header_Button_About us' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Language_test_cases\\20180326_175932\\1522076384010.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 17:59:35 - [TEST_CASE][FAILED] - Test Cases/Language_test_cases/Language_Change_About_Us: Test Cases/Language_test_cases/Language_Change_About_Us FAILED because (of) Verify element text of test object 'Object Repository/Header-Footer/Header_Button_About us' FAILED. (Root cause: Actual text 'ABOUT US' and expected text 'ÜBER UNS' of test object 'Object Repository/Header-Footer/Header_Button_About us' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Language_test_cases/Language_Change_Authors" classname="Test Cases/Language_test_cases/Language_Change_Authors" status="PASSED">
+         <system-out><![CDATA[2018-03-26 17:59:44 - [TEST_CASE][PASSED] - Test Cases/Language_test_cases/Language_Change_Authors: Test Cases/Language_test_cases/Language_Change_Authors
+
+2018-03-26 17:59:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 17:59:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-26 17:59:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 17:59:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 17:59:50 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 17:59:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-26 17:59:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-26 17:59:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header_Button__Authors' is clicked on
+
+2018-03-26 17:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header_Button__Authors' is clicked on
+
+2018-03-26 17:59:54 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/ver_block_TOP AUTHORS' is present
+
+2018-03-26 17:59:54 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/ver_block_TOP AUTHORS' is present
+
+2018-03-26 17:59:54 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-03-26 17:59:58 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-03-26 17:59:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:00:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:00:12 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:00:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:00:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:00:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:00:21 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:00:24 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:00:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:00:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:00:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:00:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 3 second(s)
+
+2018-03-26 18:00:36 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 3 second(s)
+
+2018-03-26 18:00:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:00:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:00:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:00:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 3 second(s)
+
+2018-03-26 18:00:48 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 3 second(s)
+
+2018-03-26 18:00:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:00:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:00:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:00:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:00 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:01:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:12 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:01:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:01:22 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:01:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 18:01:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Language_test_cases/Language_Change_Contacts_Us" classname="Test Cases/Language_test_cases/Language_Change_Contacts_Us" status="PASSED">
+         <system-out><![CDATA[2018-03-26 18:01:23 - [TEST_CASE][PASSED] - Test Cases/Language_test_cases/Language_Change_Contacts_Us: Test Cases/Language_test_cases/Language_Change_Contacts_Us
+
+2018-03-26 18:01:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 18:01:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 18:01:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:01:29 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:01:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-26 18:01:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-26 18:01:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header_Button_Contact us' is clicked on
+
+2018-03-26 18:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header_Button_Contact us' is clicked on
+
+2018-03-26 18:01:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/ver_Contact form' is present
+
+2018-03-26 18:01:31 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/ver_Contact form' is present
+
+2018-03-26 18:01:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:01:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:34 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:01:35 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:37 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:01:38 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:40 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:01:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:43 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:01:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:46 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:01:47 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:49 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:01:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:01:50 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:01:50 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:01:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:01:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 18:01:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Language_test_cases/Language_Change_FAQ" classname="Test Cases/Language_test_cases/Language_Change_FAQ" status="PASSED">
+         <system-out><![CDATA[2018-03-26 18:01:51 - [TEST_CASE][PASSED] - Test Cases/Language_test_cases/Language_Change_FAQ: Test Cases/Language_test_cases/Language_Change_FAQ
+
+2018-03-26 18:01:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 18:01:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 18:01:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:01:56 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:01:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-26 18:01:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-26 18:01:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header_Button_FAQ' is clicked on
+
+2018-03-26 18:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header_Button_FAQ' is clicked on
+
+2018-03-26 18:01:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/ver_FAQ' is present
+
+2018-03-26 18:01:59 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/ver_FAQ' is present
+
+2018-03-26 18:01:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:01:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:01 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:02:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:04 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:02:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:07 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:02:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:11 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:02:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:14 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:02:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:17 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:02:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:02:18 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:02:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 18:02:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Language_test_cases/Language_Change_Manual" classname="Test Cases/Language_test_cases/Language_Change_Manual" status="PASSED">
+         <system-out><![CDATA[2018-03-26 18:02:18 - [TEST_CASE][PASSED] - Test Cases/Language_test_cases/Language_Change_Manual: Test Cases/Language_test_cases/Language_Change_Manual
+
+2018-03-26 18:02:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 18:02:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 18:02:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:02:27 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:02:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-26 18:02:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-26 18:02:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header_Button_User Manual' is clicked on
+
+2018-03-26 18:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header_Button_User Manual' is clicked on
+
+2018-03-26 18:02:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/ver_Users Manual' is present
+
+2018-03-26 18:02:29 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/ver_Users Manual' is present
+
+2018-03-26 18:02:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:02:30 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:32 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:02:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:35 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:02:36 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:38 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:02:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:41 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:02:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:44 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:02:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:48 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:02:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:02:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:02:49 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:02:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:02:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 18:02:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Language_test_cases/Language_Change_News" classname="Test Cases/Language_test_cases/Language_Change_News" status="PASSED">
+         <system-out><![CDATA[2018-03-26 18:02:50 - [TEST_CASE][PASSED] - Test Cases/Language_test_cases/Language_Change_News: Test Cases/Language_test_cases/Language_Change_News
+
+2018-03-26 18:02:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 18:02:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 18:02:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:02:54 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:02:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-26 18:02:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-26 18:02:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header_Button_NewsOffers' is clicked on
+
+2018-03-26 18:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header_Button_NewsOffers' is clicked on
+
+2018-03-26 18:02:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/ver_news' is present
+
+2018-03-26 18:02:57 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/ver_news' is present
+
+2018-03-26 18:02:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:02:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:01 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:03:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:04 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:03:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:08 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:03:09 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:11 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:03:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:15 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:03:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:19 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:03:20 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:03:20 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:03:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 18:03:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Language_test_cases/Language_Change_Search" classname="Test Cases/Language_test_cases/Language_Change_Search" status="PASSED">
+         <system-out><![CDATA[2018-03-26 18:03:21 - [TEST_CASE][PASSED] - Test Cases/Language_test_cases/Language_Change_Search: Test Cases/Language_test_cases/Language_Change_Search
+
+2018-03-26 18:03:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 18:03:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 18:03:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:03:27 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-26 18:03:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-26 18:03:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-26 18:03:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Header_Button_Search report' is clicked on
+
+2018-03-26 18:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Header_Button_Search report' is clicked on
+
+2018-03-26 18:03:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/ver_Search block' is not present after 2 second(s)
+
+2018-03-26 18:03:33 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/ver_Search block' is not present after 2 second(s)
+
+2018-03-26 18:03:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_DE' is clicked on
+
+2018-03-26 18:03:36 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:38 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_RU' is clicked on
+
+2018-03-26 18:03:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:42 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_FR' is clicked on
+
+2018-03-26 18:03:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:46 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_ES' is clicked on
+
+2018-03-26 18:03:48 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:50 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_IT' is clicked on
+
+2018-03-26 18:03:52 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:54 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:03:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:03:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_PL' is clicked on
+
+2018-03-26 18:03:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:04:01 - [MESSAGE][WARNING] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is not present after 2 second(s)
+
+2018-03-26 18:04:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:04:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:04:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Header-Footer/Language_Button_EN' is clicked on
+
+2018-03-26 18:04:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:04:02 - [MESSAGE][PASSED] - Object 'Object Repository/Header-Footer/Header_Button_Create a report' is present
+
+2018-03-26 18:04:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:04:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Header-Footer/Header_Button_About us' are matched.
+
+2018-03-26 18:04:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 18:04:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-26 17:59:34 - [TEST_SUITE][FAILED] - Language_test_cases: Test Cases/Language_test_cases/Language_Change_About_Us FAILED because (of) Verify element text of test object 'Object Repository/Header-Footer/Header_Button_About us' FAILED. (Root cause: Actual text 'ABOUT US' and expected text 'ÜBER UNS' of test object 'Object Repository/Header-Footer/Header_Button_About us' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-03-26 17:59:34 - [TEST_SUITE][FAILED] - Language_test_cases: Test Cases/Language_test_cases/Language_Change_About_Us FAILED because (of) Verify element text of test object 'Object Repository/Header-Footer/Header_Button_About us' FAILED. (Root cause: Actual text 'ABOUT US' and expected text 'ÜBER UNS' of test object 'Object Repository/Header-Footer/Header_Button_About us' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

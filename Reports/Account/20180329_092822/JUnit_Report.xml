@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Account" time="43" tests="1" failures="0" errors="0">
+   <testsuite name="Account" tests="1" failures="0" errors="0" time="43" timestamp="2018-03-29 09:28:24" hostname="user - BrainPc" id="Test Suites/Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Account\\20180329_092822"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Account\\20180329_092822\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - BrainPc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.1.2.105"/>
+         <property name="sessionId" value="666a8aecf5e0117adaca4eaad5f51886"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Account/Change_data_Account" classname="Test Cases/Account/Change_data_Account" status="PASSED">
+         <system-out><![CDATA[2018-03-29 09:28:24 - [TEST_CASE][PASSED] - Test Cases/Account/Change_data_Account: Test Cases/Account/Change_data_Account
+
+2018-03-29 09:28:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-29 09:28:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-29 09:28:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://route-report.doinsane.com/' successfully
+
+2018-03-29 09:28:31 - [MESSAGE][PASSED] - Navigate to 'http://route-report.doinsane.com/' successfully
+
+2018-03-29 09:28:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-29 09:28:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-29 09:28:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-03-29 09:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/span_Login' is clicked on
+
+2018-03-29 09:28:32 - [TEST_STEP][PASSED] - Statement - x = org.apache.commons.lang.RandomStringUtils.randomNumeric(8): null
+
+2018-03-29 09:28:32 - [TEST_STEP][PASSED] - Statement - s = org.apache.commons.lang.RandomStringUtils.randomNumeric(8): null
+
+2018-03-29 09:28:32 - [TEST_STEP][PASSED] - setText: Text '88524068' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-03-29 09:28:33 - [MESSAGE][PASSED] - Text '88524068' is set on object 'Object Repository/Login_registration/input_in_nickname'
+
+2018-03-29 09:28:33 - [TEST_STEP][PASSED] - setText: Text '88524068@automatedtest.com' is set on object 'Object Repository/Login_registration/input_in_email_registration_field'
+
+2018-03-29 09:28:34 - [MESSAGE][PASSED] - Text '88524068@automatedtest.com' is set on object 'Object Repository/Login_registration/input_in_email_registration_field'
+
+2018-03-29 09:28:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/button_SIGN UP' is clicked on
+
+2018-03-29 09:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/button_SIGN UP' is clicked on
+
+2018-03-29 09:28:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-03-29 09:28:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/span_My spoken languages' is present
+
+2018-03-29 09:28:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login_registration/span_mail_field_account' are matched.
+
+2018-03-29 09:28:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login_registration/span_mail_field_account' are matched.
+
+2018-03-29 09:28:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_change_name_mail_phone' is clicked on
+
+2018-03-29 09:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_change_name_mail_phone' is clicked on
+
+2018-03-29 09:28:39 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Account/Other/input_field_Name' is cleared
+
+2018-03-29 09:28:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Account/Other/input_field_Name' is cleared
+
+2018-03-29 09:28:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/warnings(validator_msg)/warning_Name_field' is present
+
+2018-03-29 09:28:40 - [MESSAGE][PASSED] - Object 'Object Repository/Account/warnings(validator_msg)/warning_Name_field' is present
+
+2018-03-29 09:28:40 - [TEST_STEP][PASSED] - setText: Text 'Name63576321' is set on object 'Object Repository/Account/Other/input_field_Name'
+
+2018-03-29 09:28:40 - [MESSAGE][PASSED] - Text 'Name63576321' is set on object 'Object Repository/Account/Other/input_field_Name'
+
+2018-03-29 09:28:40 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Account/Other/input_field_Last_name' is cleared
+
+2018-03-29 09:28:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Account/Other/input_field_Last_name' is cleared
+
+2018-03-29 09:28:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/warnings(validator_msg)/warning_Last_name_Field' is present
+
+2018-03-29 09:28:40 - [MESSAGE][PASSED] - Object 'Object Repository/Account/warnings(validator_msg)/warning_Last_name_Field' is present
+
+2018-03-29 09:28:40 - [TEST_STEP][PASSED] - setText: Text 'Last63576321' is set on object 'Object Repository/Account/Other/input_field_Last_name'
+
+2018-03-29 09:28:40 - [MESSAGE][PASSED] - Text 'Last63576321' is set on object 'Object Repository/Account/Other/input_field_Last_name'
+
+2018-03-29 09:28:40 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Account/Other/input_Nick_Field' is cleared
+
+2018-03-29 09:28:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Account/Other/input_Nick_Field' is cleared
+
+2018-03-29 09:28:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/warnings(validator_msg)/warning_Nick_Field' is present
+
+2018-03-29 09:28:40 - [MESSAGE][PASSED] - Object 'Object Repository/Account/warnings(validator_msg)/warning_Nick_Field' is present
+
+2018-03-29 09:28:40 - [TEST_STEP][PASSED] - setText: Text 'Nick63576321' is set on object 'Object Repository/Account/Other/input_Nick_Field'
+
+2018-03-29 09:28:40 - [MESSAGE][PASSED] - Text 'Nick63576321' is set on object 'Object Repository/Account/Other/input_Nick_Field'
+
+2018-03-29 09:28:40 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Account/Other/input_Mail_Field' is cleared
+
+2018-03-29 09:28:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Account/Other/input_Mail_Field' is cleared
+
+2018-03-29 09:28:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/warnings(validator_msg)/warning_Mail_Field' is present
+
+2018-03-29 09:28:41 - [MESSAGE][PASSED] - Object 'Object Repository/Account/warnings(validator_msg)/warning_Mail_Field' is present
+
+2018-03-29 09:28:41 - [TEST_STEP][PASSED] - setText: Text '63576321mailautomated@com.com' is set on object 'Object Repository/Account/Other/input_Mail_Field'
+
+2018-03-29 09:28:41 - [MESSAGE][PASSED] - Text '63576321mailautomated@com.com' is set on object 'Object Repository/Account/Other/input_Mail_Field'
+
+2018-03-29 09:28:41 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/Account/Other/input_Phone_Field'
+
+2018-03-29 09:28:41 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Account/Other/input_Phone_Field'
+
+2018-03-29 09:28:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_Gender_Male' is clicked on
+
+2018-03-29 09:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_Gender_Male' is clicked on
+
+2018-03-29 09:28:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_Calendar' is clicked on
+
+2018-03-29 09:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_Calendar' is clicked on
+
+2018-03-29 09:28:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/Other/Date_picker_calendar' is present
+
+2018-03-29 09:28:42 - [MESSAGE][PASSED] - Object 'Object Repository/Account/Other/Date_picker_calendar' is present
+
+2018-03-29 09:28:42 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [2] are selected on object 'Object Repository/Account/Other/date_picker_dropdawn_list_month'
+
+2018-03-29 09:28:42 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/Account/Other/date_picker_dropdawn_list_month'
+
+2018-03-29 09:28:42 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/Account/Other/date_picker_Year'
+
+2018-03-29 09:28:42 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Account/Other/date_picker_Year'
+
+2018-03-29 09:28:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Other/date_picker_Select_date' is clicked on
+
+2018-03-29 09:28:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Other/date_picker_Select_date' is clicked on
+
+2018-03-29 09:28:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-29 09:28:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-29 09:28:43 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Account/Buttons/button_save_changes' is double clicked on
+
+2018-03-29 09:28:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_save_changes' is double clicked on
+
+2018-03-29 09:28:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/Buttons/button_Gender_Female' is present
+
+2018-03-29 09:28:44 - [MESSAGE][PASSED] - Object 'Object Repository/Account/Buttons/button_Gender_Female' is present
+
+2018-03-29 09:28:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_add_language_PLUS' is clicked on
+
+2018-03-29 09:28:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_add_language_PLUS' is clicked on
+
+2018-03-29 09:28:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/Buttons/button_add_language_DE' is present
+
+2018-03-29 09:28:44 - [MESSAGE][PASSED] - Object 'Object Repository/Account/Buttons/button_add_language_DE' is present
+
+2018-03-29 09:28:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_add_language_DE' is clicked on
+
+2018-03-29 09:28:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_add_language_DE' is clicked on
+
+2018-03-29 09:28:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-29 09:28:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-29 09:28:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/ver/ver_2nd_added_language' is present
+
+2018-03-29 09:28:45 - [MESSAGE][PASSED] - Object 'Object Repository/Account/ver/ver_2nd_added_language' is present
+
+2018-03-29 09:28:45 - [TEST_STEP][PASSED] - uploadFile: File 'D:\test-photo.jpg' sent to object: 'Object Repository/Account/Buttons/button_change_avatar'
+
+2018-03-29 09:28:45 - [MESSAGE][PASSED] - File 'D:\test-photo.jpg' sent to object: 'Object Repository/Account/Buttons/button_change_avatar'
+
+2018-03-29 09:28:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Account/ver/ver_pop_up_with_loaded_photo' is not present after 2 second(s)
+
+2018-03-29 09:28:48 - [MESSAGE][WARNING] - Object 'Object Repository/Account/ver/ver_pop_up_with_loaded_photo' is not present after 2 second(s)
+
+2018-03-29 09:28:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-29 09:28:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-29 09:28:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Account/Buttons/button_Cancel' is visible
+
+2018-03-29 09:28:53 - [MESSAGE][PASSED] - Object 'Object Repository/Account/Buttons/button_Cancel' is visible
+
+2018-03-29 09:28:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_Add' is clicked on
+
+2018-03-29 09:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_Add' is clicked on
+
+2018-03-29 09:28:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-29 09:28:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-29 09:28:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_Green_plus' is clicked on
+
+2018-03-29 09:28:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_Green_plus' is clicked on
+
+2018-03-29 09:28:54 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Account/ver/ver_popup_subsc_shows' is present
+
+2018-03-29 09:28:55 - [MESSAGE][PASSED] - Object 'Object Repository/Account/ver/ver_popup_subsc_shows' is present
+
+2018-03-29 09:28:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Other/select_subscribe_topic' is clicked on
+
+2018-03-29 09:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Other/select_subscribe_topic' is clicked on
+
+2018-03-29 09:28:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_close_popup_subscribe' is clicked on
+
+2018-03-29 09:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_close_popup_subscribe' is clicked on
+
+2018-03-29 09:28:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-29 09:28:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-29 09:28:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_set_address' is clicked on
+
+2018-03-29 09:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_set_address' is clicked on
+
+2018-03-29 09:28:57 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Account/ver/ver_popup_Set_address_shows' is present
+
+2018-03-29 09:28:59 - [MESSAGE][PASSED] - Object 'Object Repository/Account/ver/ver_popup_Set_address_shows' is present
+
+2018-03-29 09:28:59 - [TEST_STEP][PASSED] - setText: Text 'London' is set on object 'Object Repository/Account/Other/input_address_search_field'
+
+2018-03-29 09:28:59 - [MESSAGE][PASSED] - Text 'London' is set on object 'Object Repository/Account/Other/input_address_search_field'
+
+2018-03-29 09:28:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Other/Choose_london' is clicked on
+
+2018-03-29 09:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Other/Choose_london' is clicked on
+
+2018-03-29 09:29:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-29 09:29:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-29 09:29:01 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/Account/ver/ver_popup_Set_address_shows' is clicked on using offset x=100 and y=400
+
+2018-03-29 09:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/ver/ver_popup_Set_address_shows' is clicked on using offset x=100 and y=400
+
+2018-03-29 09:29:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-29 09:29:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-29 09:29:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Account/Buttons/button_close_popup_set_address' is clicked on
+
+2018-03-29 09:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Account/Buttons/button_close_popup_set_address' is clicked on
+
+2018-03-29 09:29:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Account/ver/ver_Address' are matched.
+
+2018-03-29 09:29:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Account/ver/ver_Address' are matched.
+
+2018-03-29 09:29:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-29 09:29:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-29 09:29:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-29 09:29:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-29 09:28:24 - [TEST_SUITE][PASSED] - Account: Test Cases/Account/Change_data_Account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

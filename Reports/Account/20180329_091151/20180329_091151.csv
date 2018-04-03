@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Account,Chrome 65.0.3325.181,,2018-03-29 09:26:34,2018-03-29 09:26:44,10.378s,FAILED
+,,,,,,
+Test Cases/Account/Change_data_Account,Chrome 65.0.3325.181,,2018-03-29 09:26:34,2018-03-29 09:26:44,9.207s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-03-29 09:26:35,2018-03-29 09:26:38,2.918s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-03-29 09:26:38,2018-03-29 09:26:41,2.877s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-03-29 09:26:41,2018-03-29 09:26:42,1.163s,PASSED
+click,Chrome 65.0.3325.181,,2018-03-29 09:26:42,2018-03-29 09:26:42,0.110s,PASSED
+Statement - x = org.apache.commons.lang.RandomStringUtils.randomNumeric(8),Chrome 65.0.3325.181,,2018-03-29 09:26:42,2018-03-29 09:26:42,0.006s,PASSED
+Statement - s = org.apache.commons.lang.RandomStringUtils.randomNumeric(8),Chrome 65.0.3325.181,,2018-03-29 09:26:42,2018-03-29 09:26:42,0.001s,PASSED
+setText,Chrome 65.0.3325.181,,2018-03-29 09:26:42,2018-03-29 09:26:43,0.715s,PASSED
+setText,Chrome 65.0.3325.181,,2018-03-29 09:26:43,2018-03-29 09:26:43,0.180s,PASSED
+click,Chrome 65.0.3325.181,,2018-03-29 09:26:43,2018-03-29 09:26:44,0.782s,FAILED

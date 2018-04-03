@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_Reg-Entering a non-valid nickname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>498ae36d-cee0-4e4d-9e68-b71a266a0b3d</testCaseGuid>
+</TestCaseEntity>

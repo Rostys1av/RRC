@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Registration" time="82" tests="6" failures="0" errors="0">
+   <testsuite name="Login_Registration" tests="6" failures="0" errors="0" time="82" timestamp="2018-03-23 13:16:08" hostname="user - BrainPc" id="Test Suites/Login_Registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_131606"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_131606\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - BrainPc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.1.2.105"/>
+         <property name="sessionId" value="b03159175a21464796b80ada946bec33"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Login_Reg-Login with a valid email and password" classname="Test Cases/Login_Reg-Login with a valid email and password" status="PASSED">
+         <system-out><![CDATA[2018-03-23 13:16:08 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Login with a valid email and password: Test Cases/Login_Reg-Login with a valid email and password
+
+2018-03-23 13:16:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 13:16:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 13:16:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:16:16 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:16:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 13:16:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 13:16:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:16:17 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:16:19 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:16:19 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 13:16:19 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 13:16:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 13:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 13:16:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Account - Report Report/span_My spoken languages' is present
+
+2018-03-23 13:16:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Account - Report Report/span_My spoken languages' is present
+
+2018-03-23 13:16:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 13:16:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Log in with incorrect invalid email or password" classname="Test Cases/Login_Reg-Log in with incorrect invalid email or password" status="PASSED">
+         <system-out><![CDATA[2018-03-23 13:16:27 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Log in with incorrect invalid email or password: Test Cases/Login_Reg-Log in with incorrect invalid email or password
+
+2018-03-23 13:16:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 13:16:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 13:16:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:16:33 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:16:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 13:16:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 13:16:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:16:34 - [TEST_STEP][PASSED] - setText: Text 'wrongmail@mail.mail' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:16:35 - [MESSAGE][PASSED] - Text 'wrongmail@mail.mail' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:16:35 - [TEST_STEP][PASSED] - setText: Text '1111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 13:16:36 - [MESSAGE][PASSED] - Text '1111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 13:16:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 13:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 13:16:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present
+
+2018-03-23 13:16:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present
+
+2018-03-23 13:16:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 13:16:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Entering non-valid mail in the mail input field" classname="Test Cases/Login_Reg-Entering non-valid mail in the mail input field" status="PASSED">
+         <system-out><![CDATA[2018-03-23 13:16:39 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Entering non-valid mail in the mail input field: Test Cases/Login_Reg-Entering non-valid mail in the mail input field
+
+2018-03-23 13:16:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 13:16:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 13:16:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:16:46 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:16:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 13:16:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 13:16:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/a_JOIN US NOW' is clicked on
+
+2018-03-23 13:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/a_JOIN US NOW' is clicked on
+
+2018-03-23 13:16:48 - [TEST_STEP][PASSED] - setText: Text 'sgfsjhdgf' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:16:48 - [MESSAGE][PASSED] - Text 'sgfsjhdgf' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:16:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Please enter a valid email' is present
+
+2018-03-23 13:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Please enter a valid email' is present
+
+2018-03-23 13:16:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 13:16:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Login with input only mail (no password)" classname="Test Cases/Login_Reg-Login with input only mail (no password)" status="PASSED">
+         <system-out><![CDATA[2018-03-23 13:16:51 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Login with input only mail (no password): Test Cases/Login_Reg-Login with input only mail (no password)
+
+2018-03-23 13:16:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 13:16:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 13:16:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:16:57 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:16:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 13:16:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 13:16:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:16:58 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:16:59 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:16:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 13:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 13:17:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Required field' is present
+
+2018-03-23 13:17:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Required field' is present
+
+2018-03-23 13:17:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 13:17:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Login with password only (no mail)" classname="Test Cases/Login_Reg-Login with password only (no mail)" status="PASSED">
+         <system-out><![CDATA[2018-03-23 13:17:02 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Login with password only (no mail): Test Cases/Login_Reg-Login with password only (no mail)
+
+2018-03-23 13:17:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 13:17:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 13:17:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:17:12 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:17:12 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 13:17:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 13:17:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:17:14 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 13:17:14 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 13:17:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-23 13:17:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 13:17:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 13:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 13:17:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Required field' is present
+
+2018-03-23 13:17:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Required field' is present
+
+2018-03-23 13:17:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 13:17:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Recovering the password with the wrong key" classname="Test Cases/Login_Reg-Recovering the password with the wrong key" status="PASSED">
+         <system-out><![CDATA[2018-03-23 13:17:17 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Recovering the password with the wrong key: Test Cases/Login_Reg-Recovering the password with the wrong key
+
+2018-03-23 13:17:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 13:17:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 13:17:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:17:23 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 13:17:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 13:17:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 13:17:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 13:17:24 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:17:26 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 13:17:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Forgot password' is clicked on
+
+2018-03-23 13:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Forgot password' is clicked on
+
+2018-03-23 13:17:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-23 13:17:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-23 13:17:28 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_key_password_recover'
+
+2018-03-23 13:17:28 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_key_password_recover'
+
+2018-03-23 13:17:28 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password_new'
+
+2018-03-23 13:17:28 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password_new'
+
+2018-03-23 13:17:28 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password_confirm'
+
+2018-03-23 13:17:29 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password_confirm'
+
+2018-03-23 13:17:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN_recover_password' is clicked on
+
+2018-03-23 13:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN_recover_password' is clicked on
+
+2018-03-23 13:17:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Key entered incorrectly' is present
+
+2018-03-23 13:17:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Key entered incorrectly' is present
+
+2018-03-23 13:17:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 13:17:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-23 13:16:08 - [TEST_SUITE][PASSED] - Login_Registration: Test Cases/Login_Reg-Recovering the password with the wrong key]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

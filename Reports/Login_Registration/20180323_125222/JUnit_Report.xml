@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Registration" time="67" tests="4" failures="2" errors="0">
+   <testsuite name="Login_Registration" tests="4" failures="2" errors="0" time="67" timestamp="2018-03-23 12:52:24" hostname="user - BrainPc" id="Test Suites/Login_Registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_125222"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_125222\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_125222\\1521802399712.png, C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_125222\\1521802410016.png"/>
+         <property name="hostName" value="user - BrainPc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.1.2.105"/>
+         <property name="sessionId" value="bb5f24c9810ff40924be367f6b8e3c21"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Login_Reg-Login with a valid email and password" classname="Test Cases/Login_Reg-Login with a valid email and password" status="PASSED">
+         <system-out><![CDATA[2018-03-23 12:52:24 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Login with a valid email and password: Test Cases/Login_Reg-Login with a valid email and password
+
+2018-03-23 12:52:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 12:52:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 12:52:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:52:31 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:52:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 12:52:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 12:52:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:52:33 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:52:33 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:52:33 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 12:52:34 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 12:52:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 12:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 12:52:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Account - Report Report/span_My spoken languages' is present
+
+2018-03-23 12:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Account - Report Report/span_My spoken languages' is present
+
+2018-03-23 12:52:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 12:52:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Log in with incorrect invalid email or password" classname="Test Cases/Login_Reg-Log in with incorrect invalid email or password" status="PASSED">
+         <system-out><![CDATA[2018-03-23 12:52:39 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Log in with incorrect invalid email or password: Test Cases/Login_Reg-Log in with incorrect invalid email or password
+
+2018-03-23 12:52:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 12:52:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 12:52:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:52:46 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:52:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 12:52:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 12:52:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:52:47 - [TEST_STEP][PASSED] - setText: Text 'wrongmail@mail.mail' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:52:48 - [MESSAGE][PASSED] - Text 'wrongmail@mail.mail' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:52:48 - [TEST_STEP][PASSED] - setText: Text '1111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 12:52:48 - [MESSAGE][PASSED] - Text '1111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 12:52:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 12:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 12:52:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present
+
+2018-03-23 12:52:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present
+
+2018-03-23 12:52:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 12:52:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Entering non-valid mail in the mail input field" classname="Test Cases/Login_Reg-Entering non-valid mail in the mail input field" status="PASSED">
+         <system-out><![CDATA[2018-03-23 12:52:50 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Entering non-valid mail in the mail input field: Test Cases/Login_Reg-Entering non-valid mail in the mail input field
+
+2018-03-23 12:52:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 12:52:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 12:52:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:52:56 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:52:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 12:52:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 12:52:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/a_JOIN US NOW' is clicked on
+
+2018-03-23 12:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/a_JOIN US NOW' is clicked on
+
+2018-03-23 12:52:58 - [TEST_STEP][PASSED] - setText: Text 'sgfsjhdgf' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:52:58 - [MESSAGE][PASSED] - Text 'sgfsjhdgf' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:52:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Please enter a valid email' is present
+
+2018-03-23 12:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Please enter a valid email' is present
+
+2018-03-23 12:53:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 12:53:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Login with input only mail (no password)" classname="Test Cases/Login_Reg-Login with input only mail (no password)" status="PASSED">
+         <system-out><![CDATA[2018-03-23 12:53:01 - [TEST_CASE][PASSED] - Test Cases/Login_Reg-Login with input only mail (no password): Test Cases/Login_Reg-Login with input only mail (no password)
+
+2018-03-23 12:53:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 12:53:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 12:53:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:53:07 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:53:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 12:53:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 12:53:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:53:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:53:08 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:53:09 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:53:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 12:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 12:53:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Required field' is present
+
+2018-03-23 12:53:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Required field' is present
+
+2018-03-23 12:53:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 12:53:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Login with password only (no mail)" classname="Test Cases/Login_Reg-Login with password only (no mail)" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;button&quot; id=&quot;open_go_login&quot; style=&quot;width: 100%;&quot;>...&lt;/button> is not clickable at point (837, 450). Other element would receive the click: &lt;div class=&quot;srm_loading&quot;>...&lt;/div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 61d6188f739c15d51e492da20340e8ee)"/>
+         <system-out><![CDATA[2018-03-23 12:53:10 - [TEST_CASE][FAILED] - Test Cases/Login_Reg-Login with password only (no mail): Test Cases/Login_Reg-Login with password only (no mail) FAILED because (of) Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 61d6188f739c15d51e492da20340e8ee)
+
+2018-03-23 12:53:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 12:53:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 12:53:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:53:17 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:53:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 12:53:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 12:53:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:53:18 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 12:53:19 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 12:53:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 61d6188f739c15d51e492da20340e8ee)
+
+2018-03-23 12:53:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 61d6188f739c15d51e492da20340e8ee)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_125222\\1521802399712.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-23 12:53:10 - [TEST_CASE][FAILED] - Test Cases/Login_Reg-Login with password only (no mail): Test Cases/Login_Reg-Login with password only (no mail) FAILED because (of) Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 61d6188f739c15d51e492da20340e8ee)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_Reg-Recovering the password with the wrong key" classname="Test Cases/Login_Reg-Recovering the password with the wrong key" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Forgot password' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;form_a&quot; id=&quot;form_forget_password&quot; style=&quot;margin-top: 5px;&quot;>...&lt;/div> is not clickable at point (837, 485). Other element would receive the click: &lt;div class=&quot;srm_loading&quot;>...&lt;/div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: bb5f24c9810ff40924be367f6b8e3c21)"/>
+         <system-out><![CDATA[2018-03-23 12:53:20 - [TEST_CASE][FAILED] - Test Cases/Login_Reg-Recovering the password with the wrong key: Test Cases/Login_Reg-Recovering the password with the wrong key FAILED because (of) Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Forgot password' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 485). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: bb5f24c9810ff40924be367f6b8e3c21)
+
+2018-03-23 12:53:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 12:53:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-23 12:53:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 12:53:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:53:27 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 12:53:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 12:53:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 12:53:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 12:53:28 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:53:29 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 12:53:29 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Forgot password' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 485). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: bb5f24c9810ff40924be367f6b8e3c21)
+
+2018-03-23 12:53:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Forgot password' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 485). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: bb5f24c9810ff40924be367f6b8e3c21)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_125222\\1521802410016.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-23 12:53:20 - [TEST_CASE][FAILED] - Test Cases/Login_Reg-Recovering the password with the wrong key: Test Cases/Login_Reg-Recovering the password with the wrong key FAILED because (of) Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Forgot password' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <div class="form_a" id="form_forget_password" style="margin-top: 5px;">...</div> is not clickable at point (837, 485). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: bb5f24c9810ff40924be367f6b8e3c21)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-23 12:52:24 - [TEST_SUITE][FAILED] - Login_Registration: Test Cases/Login_Reg-Login with password only (no mail) FAILED because (of) Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 61d6188f739c15d51e492da20340e8ee)]]></system-out>
+      <system-err><![CDATA[2018-03-23 12:52:24 - [TEST_SUITE][FAILED] - Login_Registration: Test Cases/Login_Reg-Login with password only (no mail) FAILED because (of) Unable to click on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="button" id="open_go_login" style="width: 100%;">...</button> is not clickable at point (837, 450). Other element would receive the click: <div class="srm_loading">...</div>
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BRAINPC', ip: '10.1.2.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 61d6188f739c15d51e492da20340e8ee)]]></system-err>
+   </testsuite>
+</testsuites>

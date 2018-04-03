@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Registration" time="70" tests="3" failures="1" errors="0">
+   <testsuite name="Login_Registration" tests="3" failures="1" errors="0" time="70" timestamp="2018-03-23 10:37:14" hostname="user - BrainPc" id="Test Suites/Login_Registration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_103712"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_103712\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_103712\\1521794285015.png, C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_103712\\1521794285573.png"/>
+         <property name="hostName" value="user - BrainPc"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.1.2.105"/>
+         <property name="sessionId" value="4c782443a41b530c76aaf491238f5fb3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Login with a valid email and password" classname="Test Cases/Login with a valid email and password" status="PASSED">
+         <system-out><![CDATA[2018-03-23 10:37:14 - [TEST_CASE][PASSED] - Test Cases/Login with a valid email and password: Test Cases/Login with a valid email and password
+
+2018-03-23 10:37:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 10:37:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 10:37:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 10:37:22 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 10:37:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 10:37:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 10:37:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 10:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 10:37:24 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 10:37:25 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 10:37:25 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 10:37:25 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_password'
+
+2018-03-23 10:37:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 10:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 10:37:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Account - Report Report/span_My spoken languages' is present
+
+2018-03-23 10:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Account - Report Report/span_My spoken languages' is present
+
+2018-03-23 10:37:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 10:37:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Log in with incorrect invalid email or password" classname="Test Cases/Log in with incorrect invalid email or password" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' located by 'By.xpath: //div[@id = 'login_error' and (text() = 'Verify that the email and password are correct' or . = 'Verify that the email and password are correct')]' not found)"/>
+         <system-out><![CDATA[2018-03-23 10:37:35 - [TEST_CASE][FAILED] - Test Cases/Log in with incorrect invalid email or password: Test Cases/Log in with incorrect invalid email or password FAILED because (of) Unable to verify object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' located by 'By.xpath: //div[@id = 'login_error' and (text() = 'Verify that the email and password are correct' or . = 'Verify that the email and password are correct')]' not found)
+
+2018-03-23 10:37:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 10:37:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 10:37:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 10:37:41 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 10:37:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 10:37:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 10:37:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil (2)/span_Login' is clicked on
+
+2018-03-23 10:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil (2)/span_Login' is clicked on
+
+2018-03-23 10:37:42 - [TEST_STEP][PASSED] - setText: Text 'wrongmail@mail.mail' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil (2)/input_in_login'
+
+2018-03-23 10:37:43 - [MESSAGE][PASSED] - Text 'wrongmail@mail.mail' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil (2)/input_in_login'
+
+2018-03-23 10:37:43 - [TEST_STEP][PASSED] - setText: Text '11' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil (2)/input_in_password'
+
+2018-03-23 10:37:43 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil (2)/input_in_password'
+
+2018-03-23 10:37:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil (2)/button_LOG IN' is clicked on
+
+2018-03-23 10:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil (2)/button_LOG IN' is clicked on
+
+2018-03-23 10:37:43 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' located by 'By.xpath: //div[@id = 'login_error' and (text() = 'Verify that the email and password are correct' or . = 'Verify that the email and password are correct')]' not found)
+
+2018-03-23 10:38:05 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' located by 'By.xpath: //div[@id = 'login_error' and (text() = 'Verify that the email and password are correct' or . = 'Verify that the email and password are correct')]' not found
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_103712\\1521794285015.png]]
+
+2018-03-23 10:38:06 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' located by 'By.xpath: //div[@id = 'login_error' and (text() = 'Verify that the email and password are correct' or . = 'Verify that the email and password are correct')]' not found)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Route_report_WEB\\Reports\\Login_Registration\\20180323_103712\\1521794285573.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-23 10:37:35 - [TEST_CASE][FAILED] - Test Cases/Log in with incorrect invalid email or password: Test Cases/Log in with incorrect invalid email or password FAILED because (of) Unable to verify object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' located by 'By.xpath: //div[@id = 'login_error' and (text() = 'Verify that the email and password are correct' or . = 'Verify that the email and password are correct')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Entering non-valid mail in the mail input field" classname="Test Cases/Entering non-valid mail in the mail input field" status="PASSED">
+         <system-out><![CDATA[2018-03-23 10:38:06 - [TEST_CASE][PASSED] - Test Cases/Entering non-valid mail in the mail input field: Test Cases/Entering non-valid mail in the mail input field
+
+2018-03-23 10:38:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 10:38:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-23 10:38:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 10:38:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 10:38:11 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 10:38:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 10:38:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 10:38:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/a_JOIN US NOW' is clicked on
+
+2018-03-23 10:38:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/a_JOIN US NOW' is clicked on
+
+2018-03-23 10:38:12 - [TEST_STEP][PASSED] - setText: Text 'sgfsjhdgf' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 10:38:13 - [MESSAGE][PASSED] - Text 'sgfsjhdgf' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 10:38:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Please enter a valid email' is present
+
+2018-03-23 10:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Please enter a valid email' is present
+
+2018-03-23 10:38:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 10:38:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login with input only mail (no password)" classname="Test Cases/Login with input only mail (no password)" status="PASSED">
+         <system-out><![CDATA[2018-03-23 10:38:15 - [TEST_CASE][PASSED] - Test Cases/Login with input only mail (no password): Test Cases/Login with input only mail (no password)
+
+2018-03-23 10:38:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-23 10:38:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-23 10:38:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 10:38:21 - [MESSAGE][PASSED] - Navigate to 'https://www.route-report.com/' successfully
+
+2018-03-23 10:38:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-23 10:38:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-23 10:38:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 10:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/span_Login' is clicked on
+
+2018-03-23 10:38:22 - [TEST_STEP][PASSED] - setText: Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 10:38:23 - [MESSAGE][PASSED] - Text 'rostyslav.biliaiev@route-report.com' is set on object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/input_in_login'
+
+2018-03-23 10:38:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 10:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/button_LOG IN' is clicked on
+
+2018-03-23 10:38:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Required field' is present
+
+2018-03-23 10:38:23 - [MESSAGE][PASSED] - Object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Required field' is present
+
+2018-03-23 10:38:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-23 10:38:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-23 10:37:14 - [TEST_SUITE][FAILED] - Login_Registration: Test Cases/Log in with incorrect invalid email or password FAILED because (of) Unable to verify object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' located by 'By.xpath: //div[@id = 'login_error' and (text() = 'Verify that the email and password are correct' or . = 'Verify that the email and password are correct')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-23 10:37:14 - [TEST_SUITE][FAILED] - Login_Registration: Test Cases/Log in with incorrect invalid email or password FAILED because (of) Unable to verify object 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login_registration/Page_Route Report - Earn money whil/div_Verify that the email and' located by 'By.xpath: //div[@id = 'login_error' and (text() = 'Verify that the email and password are correct' or . = 'Verify that the email and password are correct')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Account,Chrome 65.0.3325.181,,2018-04-03 10:50:40,2018-04-03 10:51:43,1m - 3.280s,FAILED
+,,,,,,
+Test Cases/Account/Account_Change_data,Chrome 65.0.3325.181,,2018-04-03 10:50:40,2018-04-03 10:50:57,17.144s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-03 10:50:41,2018-04-03 10:50:44,3.052s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-03 10:50:44,2018-04-03 10:50:54,10.762s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-03 10:50:54,2018-04-03 10:50:56,1.179s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:50:56,2018-04-03 10:50:56,0.123s,PASSED
+Statement - mydate = new java.util.Date(),Chrome 65.0.3325.181,,2018-04-03 10:50:56,2018-04-03 10:50:56,0.007s,PASSED
+"Statement - dateHour = mydate.format(""HHmmss"")",Chrome 65.0.3325.181,,2018-04-03 10:50:56,2018-04-03 10:50:56,0.005s,PASSED
+"Statement - x = ""time"" + dateHour",Chrome 65.0.3325.181,,2018-04-03 10:50:56,2018-04-03 10:50:56,0.001s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:50:56,2018-04-03 10:50:56,0.711s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:50:56,2018-04-03 10:50:57,0.149s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:50:57,2018-04-03 10:50:57,0.671s,FAILED
+,,,,,,
+Test Cases/Account/Account_Change_Password,Chrome 65.0.3325.181,,2018-04-03 10:50:57,2018-04-03 10:51:12,14.915s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-03 10:50:57,2018-04-03 10:51:00,2.778s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-03 10:51:00,2018-04-03 10:51:09,9.134s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-03 10:51:09,2018-04-03 10:51:11,1.183s,PASSED
+"Statement - pass = ""111111""",Chrome 65.0.3325.181,,2018-04-03 10:51:11,2018-04-03 10:51:11,0.001s,PASSED
+"Statement - wrongpass = ""123123123123""",Chrome 65.0.3325.181,,2018-04-03 10:51:11,2018-04-03 10:51:11,0.001s,PASSED
+"Statement - newpass = ""222222""",Chrome 65.0.3325.181,,2018-04-03 10:51:11,2018-04-03 10:51:11,0.001s,PASSED
+"Statement - mail = ""rostyslav.biliaiev@route-report.com""",Chrome 65.0.3325.181,,2018-04-03 10:51:11,2018-04-03 10:51:11,0.000s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:51:11,2018-04-03 10:51:11,0.093s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:51:11,2018-04-03 10:51:11,0.745s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:51:11,2018-04-03 10:51:11,0.120s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:51:11,2018-04-03 10:51:12,0.628s,FAILED
+,,,,,,
+Test Cases/Account/Account_Add_and_Edit_Post,Chrome 65.0.3325.181,,2018-04-03 10:51:12,2018-04-03 10:51:23,10.421s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-03 10:51:12,2018-04-03 10:51:15,2.771s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-03 10:51:15,2018-04-03 10:51:20,4.733s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-03 10:51:20,2018-04-03 10:51:21,1.150s,PASSED
+Statement - mydate = new java.util.Date(),Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.001s,PASSED
+"Statement - formattedDate = mydate.format(""MMdd"")",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.001s,PASSED
+"Statement - dateHour = mydate.format(""HHmm"")",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.000s,PASSED
+"Statement - dateHourfull = mydate.format(""HHmmss"")",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.000s,PASSED
+"Statement - pass = ""111111""",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.000s,PASSED
+"Statement - mail = ""rostyslav.biliaiev@route-report.com""",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.000s,PASSED
+"Statement - title_small = ""YO""",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.000s,PASSED
+"Statement - title = ""Automated Test was executed""",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.001s,PASSED
+"Statement - post_text_small = ""Short text""",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.000s,PASSED
+"Statement - post_text = ""Automated Test Executed Automated Test Executed Automated Test Executed Automated Test Executed Automated Test Executed Automated Test Executed""",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.001s,PASSED
+"Statement - youtube = ""https://youtu.be/Mb-7AWpXK-o""",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.003s,PASSED
+"Statement - post_text_edited = ""This post was edited""",Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.000s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:21,0.091s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:51:21,2018-04-03 10:51:22,0.740s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:51:22,2018-04-03 10:51:22,0.128s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:51:22,2018-04-03 10:51:23,0.571s,FAILED
+,,,,,,
+Test Cases/Account/Account_Add_Remove_post,Chrome 65.0.3325.181,,2018-04-03 10:51:23,2018-04-03 10:51:33,10.063s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-03 10:51:23,2018-04-03 10:51:25,2.734s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-03 10:51:25,2018-04-03 10:51:30,4.456s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-03 10:51:30,2018-04-03 10:51:31,1.155s,PASSED
+Statement - mydate = new java.util.Date(),Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.001s,PASSED
+"Statement - formattedDate = mydate.format(""MMdd"")",Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.001s,PASSED
+"Statement - dateHour = mydate.format(""HHmm"")",Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.001s,PASSED
+"Statement - dateHourfull = mydate.format(""HHmmss"")",Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.000s,PASSED
+"Statement - pass = ""111111""",Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.001s,PASSED
+"Statement - mail = ""rostyslav.biliaiev@route-report.com""",Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.000s,PASSED
+"Statement - title = ""Automated Test was executed""",Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.001s,PASSED
+"Statement - post_text = ""Automated Test Executed Automated Test Executed Automated Test Executed Automated Test Executed Automated Test Executed Automated Test Executed""",Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.000s,PASSED
+"Statement - youtube = ""https://youtu.be/Mb-7AWpXK-o""",Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.001s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:31,0.096s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:51:31,2018-04-03 10:51:32,0.750s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:51:32,2018-04-03 10:51:32,0.119s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:51:32,2018-04-03 10:51:33,0.606s,FAILED
+,,,,,,
+Test Cases/Account/Account_Clicks,Chrome 65.0.3325.181,,2018-04-03 10:51:33,2018-04-03 10:51:42,9.501s,FAILED
+openBrowser,Chrome 65.0.3325.181,,2018-04-03 10:51:33,2018-04-03 10:51:36,2.754s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-03 10:51:36,2018-04-03 10:51:39,3.878s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-03 10:51:39,2018-04-03 10:51:41,1.157s,PASSED
+"Statement - pass = ""111111""",Chrome 65.0.3325.181,,2018-04-03 10:51:41,2018-04-03 10:51:41,0.000s,PASSED
+"Statement - mail = ""rostyslav.biliaiev@route-report.com""",Chrome 65.0.3325.181,,2018-04-03 10:51:41,2018-04-03 10:51:41,0.000s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:51:41,2018-04-03 10:51:41,0.082s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:51:41,2018-04-03 10:51:41,0.754s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-03 10:51:41,2018-04-03 10:51:42,0.132s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-03 10:51:42,2018-04-03 10:51:42,0.583s,FAILED
