@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180403_123424</name>
+   <tag></tag>
+   <displayName>20180403_123424</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Create_report/Step 1</testCaseId>
+      <testCaseName>Step 1</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Create_report/Step 2</testCaseId>
+      <testCaseName>Step 2</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Create_report/Step 3</testCaseId>
+      <testCaseName>Step 3</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/Create_report/Step 4-5</testCaseId>
+      <testCaseName>Step 4-5</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+</ReportEntity>
